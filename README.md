@@ -1,62 +1,144 @@
-# Katherine Oquendo Lopera
+# 👋 Katherine Oquendo Lopera
 
-### IA aplicada · Automatización agéntica · Aseguramiento de calidad
+### 🤖 IA aplicada · ⚙️ Automatización agéntica · 🧪 Quality Engineering
 
-Soy una profesional enfocada en convertir **necesidades operativas y riesgos de calidad en soluciones prácticas apoyadas por inteligencia artificial, automatización y testing**.
+Profesional enfocada en convertir **necesidades operativas, retos de calidad y procesos repetitivos en soluciones prácticas apoyadas por inteligencia artificial, automatización y testing**.
 
-Mi experiencia combina aseguramiento de calidad de software, automatización de pruebas web y API, diseño de asistentes de IA y exploración de soluciones agénticas. Me interesa especialmente construir herramientas y formas de trabajo que reduzcan esfuerzo repetitivo, mejoren la calidad de los procesos y mantengan el criterio humano en las decisiones importantes.
+Mi experiencia combina aseguramiento de calidad de software, automatización de pruebas web y API, diseño de asistentes de IA, desarrollo asistido por agentes y exploración de soluciones agénticas.
 
-Actualmente desarrollo mi perfil en la intersección entre **Applied AI, Quality Engineering y Agentic Automation**.
-
----
-
-## Lo que aporto
-
-* **IA aplicada a procesos:** transformo necesidades y tareas repetitivas en asistentes, guías, prototipos y activos reutilizables.
-* **Quality Engineering:** diseño pruebas, escenarios de riesgo, evidencias y criterios que hacen visible la calidad antes de una entrega.
-* **Automatización:** experiencia con pruebas web y API y adaptación a nuevos stacks mediante aprendizaje, experimentación y revisión técnica.
-* **Pensamiento orientado a riesgo:** conecto requisitos, escenarios borde y evidencia para detectar problemas antes y facilitar mejores decisiones.
-* **Adopción responsable de IA:** utilizo la IA como acelerador, manteniendo revisión, trazabilidad y criterio humano sobre los resultados.
+Me interesa especialmente construir soluciones que permitan **reducir trabajo manual, mejorar la calidad de los procesos y acelerar la toma de decisiones**, manteniendo siempre trazabilidad, revisión y criterio humano.
 
 ---
 
-## Áreas y tecnologías
+## 🎯 Perfil profesional
 
-**IA y automatización agéntica**
-Diseño de asistentes · Prompt & Context Design · Agentes y guardrails · ChatGPT · Claude · Gemini · NotebookLM · Desarrollo asistido por agentes
+Actualmente desarrollo mi perfil en la intersección entre:
 
-**Quality Assurance & Test Automation**
-QA Automation · Selenium WebDriver · Serenity · Playwright · Cucumber · Gherkin / BDD · Rest Assured · Postman · Tricentis Tosca · Jira · Azure DevOps
+**Applied AI · Quality Engineering · QA Automation · Agentic Automation**
 
-**Tecnología**
-Java · JavaScript · Python · SQL · MySQL · Node.js · Angular
+Mi enfoque parte de una idea sencilla:
 
----
+> La automatización genera más valor cuando combina tecnología, criterio de calidad y comprensión real del proceso.
 
-## Experiencia que conecta calidad e IA
+Trabajo especialmente en iniciativas relacionadas con:
 
-He trabajado en aseguramiento de calidad y automatización de software en contextos empresariales, incluyendo proyectos para el sector asegurador, organizando pruebas, evidencias y hallazgos para apoyar decisiones de los equipos.
-
-Actualmente complemento esa experiencia con proyectos de **IA aplicada y automatización agéntica**, orientados a convertir procesos, conocimiento y criterios de calidad en soluciones más eficientes, repetibles y escalables.
-
-Entre mis proyectos se encuentran iniciativas relacionadas con:
-
-* asistentes especializados de IA;
-* estructuración de instrucciones y contexto;
-* automatización y mejora de procesos;
-* Software Testing Intelligence;
+* automatización inteligente de procesos;
+* asistentes especializados con IA;
+* diseño de instrucciones y contexto;
+* testing y aseguramiento de calidad;
+* automatización web y API;
 * desarrollo asistido por agentes;
-* guardrails, trazabilidad y quality gates para sistemas con IA.
+* experimentación con modelos locales;
+* trazabilidad, guardrails y quality gates para soluciones con IA.
 
 ---
 
-## Conoce mi perfil completo
+## 💡 Lo que aporto
 
-En mi hoja de vida interactiva encontrarás mi experiencia profesional, proyectos, metodología de trabajo, formación y stack tecnológico.
+### 🤖 IA aplicada
 
-### 🌐 [Ver mi Hoja de Vida Interactiva →](https://katherinoquendo.github.io/)
+Transformo necesidades, conocimiento y tareas repetitivas en **asistentes, prototipos, flujos y activos reutilizables apoyados por IA**.
+
+### 🧪 Quality Engineering
+
+Diseño escenarios, pruebas, criterios y evidencias orientadas a identificar riesgos y apoyar decisiones de calidad.
+
+### ⚙️ Automatización
+
+Experiencia en automatización de pruebas web y API, con capacidad de adaptación a nuevos stacks y herramientas mediante experimentación y aprendizaje continuo.
+
+### 🔎 Pensamiento orientado a riesgo
+
+Busco conectar:
+
+**requisito → riesgo → prueba → evidencia → decisión**
+
+para hacer más visible la calidad y detectar problemas antes de una entrega.
+
+### 🧠 IA con criterio humano
+
+Utilizo la inteligencia artificial como acelerador del trabajo, manteniendo revisión, trazabilidad y criterio humano sobre los resultados.
 
 ---
 
-**Medellín, Colombia**
-Perfil orientado a oportunidades en **IA aplicada · Quality Engineering · QA Automation · Agentic Automation**
+## 🛠️ Tecnologías y herramientas
+
+### 🤖 IA, agentes y desarrollo asistido
+
+`ChatGPT` · `Codex` · `Claude` · `Claude Code` · `Cowork`
+`Gemini` · `NotebookLM` · `Ollama`
+
+`Prompt Design` · `Context Design` · `AI Assistants`
+`Agentic Automation` · `AI-assisted Development` · `Guardrails` · `Local LLMs`
+
+### 🧪 QA & Test Automation
+
+`Selenium WebDriver` · `Serenity BDD` · `Playwright` · `Cucumber`
+`Gherkin / BDD` · `Rest Assured` · `Postman` · `Tricentis Tosca`
+
+### 💻 Desarrollo
+
+`Java` · `JavaScript` · `Python` · `SQL` · `MySQL` · `Node.js` · `Angular`
+
+### 📋 Gestión y colaboración
+
+`Jira` · `Azure DevOps`
+
+---
+
+## 🚀 Áreas en las que estoy construyendo
+
+Mi evolución profesional está enfocada en conectar la experiencia tradicional de calidad de software con nuevas capacidades de inteligencia artificial.
+
+Algunas de las áreas que actualmente exploro y desarrollo incluyen:
+
+* 🤖 asistentes especializados de IA;
+* 🧩 automatización agéntica;
+* 💻 desarrollo asistido con Codex y Claude Code;
+* 🧠 experimentación con modelos locales mediante Ollama;
+* 🧪 Software Testing Intelligence;
+* 🔐 guardrails y evaluación de sistemas con IA;
+* ⚡ automatización y optimización de procesos;
+* 📊 trazabilidad y quality gates;
+* 🔄 integración entre QA, automatización e IA aplicada.
+
+---
+
+## 💼 Experiencia
+
+He trabajado en **aseguramiento de calidad y automatización de software en contextos empresariales**, incluyendo proyectos relacionados con el sector asegurador.
+
+Mi experiencia incluye organización y ejecución de actividades de calidad, automatización, análisis de resultados y generación de evidencias para apoyar decisiones dentro de los equipos.
+
+Actualmente complemento esa trayectoria desarrollando proyectos de **IA aplicada, automatización agéntica y desarrollo asistido por IA**, buscando conectar calidad, tecnología y mejora de procesos.
+
+---
+
+## 🌐 Conoce mi perfil completo
+
+Mi hoja de vida interactiva presenta con mayor detalle:
+
+**Experiencia profesional · Proyectos · Formación · Stack tecnológico · IA aplicada · Automatización · Quality Engineering**
+
+### 👉 [Ver mi hoja de vida interactiva](https://katherinoquendo.github.io/)
+
+---
+
+## 🤝 Conectemos
+
+Estoy interesada en oportunidades y proyectos donde pueda aportar en la intersección de:
+
+**🤖 Inteligencia Artificial aplicada**
+**🧪 Quality Engineering**
+**⚙️ QA Automation**
+**🧩 Agentic Automation**
+**💻 AI-assisted Development**
+**🚀 Mejora y automatización de procesos**
+
+📍 Medellín, Colombia
+
+---
+
+<sub>
+Construyendo soluciones donde la inteligencia artificial, la automatización y la calidad trabajan juntas.
+</sub>
