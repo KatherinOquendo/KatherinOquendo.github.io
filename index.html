@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<!-- saved from url=(0134)file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html -->
+<html lang="es" data-variant="blueprint-rosa-agentica-v9" data-theme="light" data-lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 64 64&#39;%3E%3Crect width=&#39;64&#39; height=&#39;64&#39; rx=&#39;18&#39; fill=&#39;%23b52f51&#39;/%3E%3Ccircle cx=&#39;32&#39; cy=&#39;32&#39; r=&#39;21&#39; fill=&#39;none&#39; stroke=&#39;%23f3eee7&#39; stroke-width=&#39;2&#39;/%3E%3Cpath d=&#39;M20 44V20h8.5c7 0 11 3.1 11 8.2 0 3.2-1.6 5.8-4.5 7.1L41 44h-5.8l-5.1-7.3H25V44h-5Zm5-11.7h3.2c3.7 0 5.5-1.3 5.5-4.1 0-2.7-1.8-4-5.5-4H25v8.1Z&#39; fill=&#39;%23f3eee7&#39;/%3E%3Cpath d=&#39;M45 21v23&#39; stroke=&#39;%23b28a45&#39; stroke-width=&#39;2&#39;/%3E%3C/svg%3E">
+  <meta name="description" content="CV de Katherine Oquendo: IA aplicada, automatización agéntica y aseguramiento de calidad para convertir necesidades operativas en procesos de alto rendimiento.">
+  <meta name="keywords" content="IA aplicada, automatización agéntica, QA Automation, aseguramiento de calidad, pruebas de software, Selenium WebDriver, Serenity BDD, Playwright, RPA, AI-assisted testing, agentes de IA, mejora de procesos, Katherine Oquendo">
+  <meta name="author" content="Katherine Oquendo Lopera">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#b52f51">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Katherine Oquendo — IA aplicada, automatización agéntica y calidad">
+  <meta property="og:description" content="Automatización de pruebas y procesos con IA, criterio de calidad y adaptación responsable a nuevos stacks tecnológicos.">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:url" content="https://metodologia.info">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Katherine Oquendo — IA aplicada y calidad">
+  <meta name="twitter:description" content="Automatización agéntica, QA y activos de IA para procesos de alto rendimiento.">
+  <link rel="canonical" href="https://metodologia.info/">
+  <title>Katherine Oquendo — IA aplicada, automatización agéntica y calidad</title>
+  <style>
+
+    :root {
+      --paper: #f3eee7;
+      --surface: #fffaf3;
+      --ink: #1c1717;
+      --muted: #6f6462;
+      --line: #d9cbc2;
+      --accent: #d6336c;
+      --accent-strong: #8e2947;
+      --gold: #b1843e;
+      --header: rgba(255,250,243,.94);
+      --shadow: 0 18px 50px rgba(58,34,35,.08);
+    }
+    body[data-theme="dark"] {
+      --paper: #1d1818;
+      --surface: #292121;
+      --ink: #f7eee7;
+      --muted: #c8b7b0;
+      --line: #594848;
+      --accent: #f47e9f;
+      --accent-strong: #e0b165;
+      --gold: #e0b165;
+      --header: rgba(29,24,24,.95);
+      --shadow: 0 18px 50px rgba(0,0,0,.28);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Aptos, "Segoe UI", Helvetica, sans-serif;
+      line-height: 1.62;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .18;
+      background-image: radial-gradient(rgba(25,20,20,.08) .55px, transparent .55px);
+      background-size: 5px 5px;
+      mix-blend-mode: multiply;
+    }
+    body[data-theme="dark"]::before { opacity: .08; mix-blend-mode: screen; }
+    a { color: var(--accent-strong); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--accent); }
+    button { font: inherit; }
+    button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .lang-en { display: none; }
+    body[data-lang="en"] .lang-es { display: none; }
+    body[data-lang="en"] .lang-en { display: inline; }
+    .topbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 50;
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 12px 28px;
+      border-bottom: 1px solid var(--line);
+      background: var(--header);
+      backdrop-filter: blur(14px);
+    }
+    .brand-mark {
+      color: var(--ink);
+      font: 700 13px/1 Arial, Helvetica, sans-serif;
+      letter-spacing: .14em;
+      white-space: nowrap;
+    }
+    .brand-mark span { color: var(--accent); }
+    .header-status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font: 12px/1.2 Arial, Helvetica, sans-serif;
+      letter-spacing: .04em;
+    }
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 14%, transparent);
+    }
+    .control-row { display: flex; align-items: center; gap: 6px; margin-left: auto; flex-wrap: wrap; }
+    .control-label { color: var(--muted); font: 10px/1 Arial, Helvetica, sans-serif; letter-spacing: .16em; text-transform: uppercase; }
+    .control-group { display: inline-flex; align-items: center; gap: 3px; }
+    .control-button {
+      cursor: pointer;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      padding: 7px 9px;
+      border-radius: 999px;
+      font-size: 12px;
+      line-height: 1;
+    }
+    .control-button:hover { border-color: var(--line); color: var(--ink); }
+    .control-button[aria-pressed="true"] {
+      border-color: var(--accent);
+      color: var(--accent-strong);
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+      font-weight: 700;
+    }
+    .cv-shell {
+      width: min(1180px, 100%);
+      margin: 0 auto;
+      padding: 126px 176px 96px 42px;
+    }
+    .right-rail {
+      position: fixed;
+      z-index: 30;
+      top: 112px;
+      right: 28px;
+      width: 124px;
+    }
+    .rail-label {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font: 10px/1 Arial, Helvetica, sans-serif;
+      letter-spacing: .16em;
+    }
+    .right-rail nav { display: grid; gap: 9px; }
+    .right-rail a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 1.2;
+      padding-left: 10px;
+      border-left: 1px solid var(--line);
+    }
+    .right-rail a:hover, .right-rail a.is-active { color: var(--accent-strong); border-left: 2px solid var(--accent); padding-left: 9px; font-weight: 700; }
+    .rail-foot { margin-top: 22px; color: var(--muted); font: 10px/1.5 Arial, Helvetica, sans-serif; }
+    .section { scroll-margin-top: 104px; margin: 0 0 72px; }
+    .hero {
+      min-height: 610px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 228px;
+      gap: 44px;
+      align-items: end;
+      padding: 36px 0 72px;
+      border-bottom: 1px solid var(--line);
+    }
+    .kicker, .section-code {
+      margin: 0 0 18px;
+      color: var(--accent-strong);
+      font: 700 11px/1.2 Arial, Helvetica, sans-serif;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      max-width: 800px;
+      margin-bottom: 12px;
+      color: var(--ink);
+      font-size: clamp(3.2rem, 8vw, 6.8rem);
+      line-height: .9;
+      letter-spacing: -.07em;
+    }
+    .role {
+      margin-bottom: 24px;
+      color: var(--accent-strong);
+      font-weight: 700;
+      font-size: clamp(1.08rem, 2vw, 1.35rem);
+      line-height: 1.28;
+    }
+    .lead {
+      max-width: 740px;
+      margin-bottom: 22px;
+      font-size: clamp(1.05rem, 1.6vw, 1.27rem);
+      line-height: 1.6;
+    }
+    .contact-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px 14px;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .contact-line .contact-item { white-space: nowrap; }
+    .contact-line .contact-item + .contact-item::before { content: "·"; color: var(--accent); margin-right: 14px; }
+    .hero-link-strip {
+      display: inline-flex;
+      align-items: stretch;
+      margin-top: 14px;
+      border-block: 1px solid var(--line);
+    }
+    .hero-link-strip a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 0 18px;
+      color: var(--ink);
+      font-family: var(--display);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .hero-link-strip a + a { border-left: 1px solid var(--line); }
+    .hero-link-strip a:hover,
+    .hero-link-strip a:focus-visible { color: var(--accent); background: var(--surface); }
+    .lens-note {
+      max-width: 660px;
+      margin: 28px 0 0;
+      padding: 10px 13px;
+      border-left: 2px solid var(--accent);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .hero-photo { margin: 0; align-self: end; }
+    .portrait {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: center top;
+      border: 1px solid var(--line);
+      filter: saturate(.84) contrast(1.04);
+    }
+    .photo-caption { margin: 10px 0 0; color: var(--muted); font-size: 11px; line-height: 1.4; }
+    .section-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 18px;
+      padding-bottom: 14px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    .section-heading h2 { margin: 0; font-size: clamp(1.7rem, 3vw, 2.5rem); line-height: 1; letter-spacing: -.04em; }
+    .section-heading .section-index { color: var(--muted); font: 11px/1 Arial, Helvetica, sans-serif; letter-spacing: .12em; }
+    .section-intro { max-width: 720px; color: var(--muted); margin-bottom: 28px; }
+    .value-list, .plain-list { display: grid; gap: 14px; padding: 0; margin: 0; list-style: none; }
+    .value-list li, .plain-list li { position: relative; padding-left: 20px; }
+    .value-list li::before, .plain-list li::before { content: "↳"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+    .feature {
+      position: relative;
+      padding: 28px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+    .feature::before {
+      content: "STIA / FEATURE";
+      position: absolute;
+      top: -10px;
+      left: 20px;
+      padding: 0 8px;
+      background: var(--paper);
+      color: var(--accent-strong);
+      font: 700 10px/1 Arial, Helvetica, sans-serif;
+      letter-spacing: .14em;
+    }
+    .feature h3 { margin-bottom: 8px; font-size: clamp(1.7rem, 3vw, 2.45rem); letter-spacing: -.04em; }
+    .feature-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; color: var(--muted); font: 11px/1.3 Arial, Helvetica, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+    .validation-mark { color: var(--accent-strong); font-weight: 700; }
+    .feature-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; font-weight: 700; }
+    .alignment-grid, .project-grid, .skills-grid, .meta-grid { display: grid; gap: 18px; }
+    .alignment-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .alignment-card, .project-card, .skill-block, .meta-card {
+      padding: 20px;
+      border-top: 2px solid var(--line);
+      background: color-mix(in srgb, var(--surface) 70%, transparent);
+    }
+    .alignment-card h3, .project-card h3, .skill-block h3, .meta-card h3 { margin-bottom: 8px; font-size: 1.05rem; }
+    .alignment-card p, .project-card p, .meta-card p { color: var(--muted); font-size: 14px; }
+    .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .project-card { min-height: 190px; }
+    .project-card .project-type { margin-bottom: 9px; color: var(--accent-strong); font: 700 10px/1 Arial, Helvetica, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+    .project-card .project-link { display: inline-block; margin-top: 8px; font-size: 13px; }
+    .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+    .skill-block { padding: 24px 0 0; border-top-width: 3px; background: transparent; }
+    .skill-block h3 { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 16px; font-size: 1.25rem; }
+    .skill-count { color: var(--muted); font: 11px/1 Arial, Helvetica, sans-serif; letter-spacing: .1em; }
+    .skill-list { display: flex; flex-wrap: wrap; gap: 7px; padding: 0; margin: 0; list-style: none; }
+    .skill-list li { padding: 7px 10px; border: 1px solid var(--line); color: var(--ink); font-size: 12px; line-height: 1.2; }
+    .experience-list { display: grid; gap: 26px; }
+    .experience-item {
+      display: grid;
+      grid-template-columns: 170px minmax(0, 1fr);
+      gap: 26px;
+      padding: 24px 0;
+      border-top: 1px solid var(--line);
+    }
+    .experience-item:first-child { border-top: 0; padding-top: 0; }
+    .experience-time { color: var(--muted); font-size: 13px; }
+    .experience-time strong { display: block; margin-bottom: 5px; color: var(--accent-strong); font-size: 14px; }
+    .experience-item h3 { margin-bottom: 5px; font-size: 1.25rem; line-height: 1.2; }
+    .experience-company { margin-bottom: 12px; color: var(--muted); font-size: 14px; }
+    .subtrack { margin-bottom: 12px; color: var(--accent-strong); font: 700 11px/1.4 Arial, Helvetica, sans-serif; letter-spacing: .07em; text-transform: uppercase; }
+    .experience-item ul { margin: 0; }
+    .meta-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .meta-card { min-height: 135px; }
+    .meta-card p { margin-bottom: 0; }
+    .section[data-lens-focus="ia"], .section[data-lens-focus="qa"], .feature[data-lens-focus="both"], .project-card[data-lens-focus], .experience-item[data-lens-focus], .skill-block[data-lens-focus] {
+      transition: border-color .24s ease, box-shadow .24s ease, transform .24s ease, background-color .24s ease;
+    }
+    body[data-lens="ia"] [data-lens-focus="ia"], body[data-lens="qa"] [data-lens-focus="qa"] {
+      border-color: var(--accent);
+      box-shadow: inset 4px 0 0 var(--accent), 0 12px 28px color-mix(in srgb, var(--accent) 12%, transparent);
+    }
+    body[data-lens="ia"] .lens-copy-ia, body[data-lens="qa"] .lens-copy-qa { color: var(--accent-strong); font-weight: 700; }
+    body[data-lens="all"] [data-lens-focus] { box-shadow: none; }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    @media (max-width: 900px) {
+      .cv-shell { padding-right: 42px; }
+      .right-rail { position: static; width: auto; padding: 18px 42px 0; }
+      .right-rail nav { display: flex; flex-wrap: wrap; gap: 7px; }
+      .right-rail a { padding: 7px 10px; border: 1px solid var(--line); }
+      .rail-foot { display: none; }
+      .cv-shell { padding-top: 32px; }
+      .hero { min-height: auto; }
+    }
+    @media (max-width: 680px) {
+      .topbar { min-height: 64px; padding: 10px 16px; gap: 10px; }
+      .header-status, .control-label { display: none; }
+      .control-row { gap: 2px; }
+      .control-button { padding: 7px 6px; }
+      .cv-shell { padding: 96px 22px 60px; }
+      .right-rail { padding: 12px 22px 0; }
+      .hero { grid-template-columns: 1fr; gap: 26px; padding: 24px 0 46px; }
+      .hero-photo { width: 150px; order: -1; }
+      h1 { font-size: clamp(3rem, 18vw, 5.3rem); }
+      .lead { font-size: 1rem; }
+      .alignment-grid, .project-grid, .skills-grid, .meta-grid { grid-template-columns: 1fr; }
+      .experience-item { grid-template-columns: 1fr; gap: 9px; }
+      .section { margin-bottom: 52px; }
+      .section-heading { align-items: flex-start; flex-direction: column; gap: 6px; }
+      .feature { padding: 22px; }
+    }
+    @media print {
+      :root, body, body[data-theme="dark"] {
+        --paper: #ffffff;
+        --surface: #ffffff;
+        --ink: #111111;
+        --muted: #444444;
+        --line: #bbbbbb;
+        --accent: #9b2345;
+        --accent-strong: #7e1735;
+        --header: #ffffff;
+        --shadow: none;
+      }
+      body { background: #ffffff; font-size: 10.5pt; }
+      body::before, .topbar, .right-rail, .lens-note, .feature::before { display: none !important; }
+      .cv-shell { width: 100%; max-width: none; padding: 0; }
+      .section { margin-bottom: 24px; break-inside: avoid; }
+      .hero { min-height: auto; padding: 0 0 22px; grid-template-columns: 1fr 140px; }
+      h1 { font-size: 34pt; }
+      .lead { font-size: 12pt; }
+      .feature { box-shadow: none; }
+      .alignment-grid, .project-grid, .skills-grid, .meta-grid { gap: 10px; }
+      .alignment-card, .project-card, .skill-block, .meta-card { padding: 10px; }
+      .experience-item { gap: 16px; padding: 12px 0; }
+      a { color: inherit; }
+      .lang-en { display: none !important; }
+      .lang-es { display: inline !important; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+    }
+
+
+    .editorial .hero h1, .editorial h2, .editorial h3 { font-family: Georgia, "Times New Roman", serif; }
+    .editorial .hero { grid-template-columns: minmax(0, 1.2fr) 228px; }
+    .editorial .feature { border-left: 2px solid var(--accent); }
+    .editorial .alignment-card, .editorial .project-card, .editorial .meta-card { border-top-color: var(--accent); }
+    .editorial .right-rail a.is-active { border-left-color: var(--accent); }
+    
+    .excellence-v2 .impact-section { margin-bottom: 48px; }
+    .excellence-v2 .impact-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .excellence-v2 .impact-stat { min-height: 184px; padding: 20px; border: 1px solid var(--line); background: var(--surface); transition: border-color .24s ease, box-shadow .24s ease, transform .24s ease; }
+    .excellence-v2 .impact-stat strong { display: block; margin-bottom: 12px; color: var(--accent-strong); font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1; letter-spacing: -.06em; }
+    .excellence-v2 .impact-stat h3 { margin: 0 0 8px; font-size: 1rem; line-height: 1.2; }
+    .excellence-v2 .impact-stat p { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.45; }
+    @media (max-width: 760px) { .excellence-v2 .impact-grid { grid-template-columns: 1fr; } .excellence-v2 .impact-stat { min-height: auto; } }
+    @media print { .excellence-v2 .impact-grid { grid-template-columns: repeat(3, 1fr); } .excellence-v2 .impact-stat { min-height: auto; } }
+    .excellence-v3 .method-section { margin-bottom: 58px; }
+    .excellence-v3 .method-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+    .excellence-v3 .method-card { min-height: 206px; padding: 20px; border: 1px solid var(--line); background: var(--surface); transition: border-color .24s ease, box-shadow .24s ease, transform .24s ease; }
+    .excellence-v3 .method-step { display: block; margin-bottom: 20px; color: var(--accent-strong); font: 700 11px/1 Arial, Helvetica, sans-serif; letter-spacing: .14em; }
+    .excellence-v3 .method-card h3 { margin: 0 0 10px; font-size: 1.05rem; }
+    .excellence-v3 .method-card p { margin: 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
+    .excellence-v3 .method-guardrail { margin-top: 16px; padding: 14px 18px; border-left: 2px solid var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--surface)); font-size: .92rem; }
+    @media (max-width: 980px) { .excellence-v3 .method-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 620px) { .excellence-v3 .method-grid { grid-template-columns: 1fr; } .excellence-v3 .method-card { min-height: auto; } }
+    @media print { .excellence-v3 .method-grid { grid-template-columns: repeat(4, 1fr); } .excellence-v3 .method-card { min-height: auto; } }
+    .excellence-v4 {
+      --paper: #f5f0e8;
+      --surface: #fff9f0;
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --line: #d8cfc4;
+      --accent: #e8336f;
+      --accent-strong: #9a1e3d;
+      --gold: #9a1e3d;
+      --header: rgba(255,249,240,.95);
+      --shadow: 0 16px 42px rgba(76,34,39,.06);
+    }
+    body[data-theme="dark"].excellence-v4 {
+      --paper: #201b1b;
+      --surface: #2b2321;
+      --ink: #fff9f0;
+      --muted: #d1c2b7;
+      --line: #654d4a;
+      --accent: #f58cab;
+      --accent-strong: #f0c39a;
+      --gold: #f0c39a;
+      --header: rgba(32,27,27,.96);
+      --shadow: 0 16px 42px rgba(0,0,0,.22);
+    }
+    .excellence-v4 .section { margin-bottom: 64px; }
+    .excellence-v4 .hero { padding-top: 48px; }
+    .excellence-v4 .hero-copy .lead { max-width: 64ch; }
+    .excellence-v4 .impact-grid, .excellence-v4 .method-grid { gap: 20px; }
+    .excellence-v4 .impact-stat, .excellence-v4 .method-card { border-radius: 0; box-shadow: none; }
+    .excellence-v4 .impact-stat { min-height: 196px; padding: 24px; }
+    .excellence-v4 .method-card { min-height: 220px; padding: 24px; }
+    .excellence-v4 .feature { border-radius: 0; box-shadow: none; }
+    .excellence-v4 .alignment-card, .excellence-v4 .project-card, .excellence-v4 .meta-card { border-radius: 0; }
+    .excellence-v4 .section-heading { padding-bottom: 16px; margin-bottom: 26px; }
+    .excellence-v4 .section-heading h2 { letter-spacing: -.045em; }
+    .excellence-v4 .method-guardrail { background: var(--surface); border-radius: 0; }
+    @media (max-width: 760px) { .excellence-v4 .section { margin-bottom: 48px; } .excellence-v4 .impact-stat, .excellence-v4 .method-card { padding: 20px; } }
+    @media print { .excellence-v4 .section { margin-bottom: 32px; } .excellence-v4 .impact-stat, .excellence-v4 .method-card { min-height: auto; padding: 14px; } }
+  
+    /* ===== FINAL DESTILADO: x2 Rosa + Oro con funcionalidad v4 ===== */
+    .final-rosa-oro {
+      --paper: #faf9f6;
+      --surface: #ffffff;
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --line: #d8c8b8;
+      --accent: #c8385a;
+      --accent-strong: #9d2947;
+      --gold: #c4a35a;
+      --header: rgba(250,249,246,.96);
+      --shadow: 0 16px 42px rgba(86,44,49,.08);
+    }
+    body[data-theme="dark"].final-rosa-oro {
+      --paper: #1e1919;
+      --surface: #2b2321;
+      --ink: #fff8f0;
+      --muted: #d2c0b5;
+      --line: #66504b;
+      --accent: #f0809c;
+      --accent-strong: #f0c48d;
+      --gold: #e0b56b;
+      --header: rgba(30,25,25,.96);
+      --shadow: 0 16px 42px rgba(0,0,0,.24);
+    }
+    .final-rosa-oro .topbar {
+      border-bottom: 2px solid var(--ink);
+      background: var(--header);
+      backdrop-filter: blur(16px);
+    }
+    .final-rosa-oro .brand-mark span,
+    .final-rosa-oro .kicker,
+    .final-rosa-oro .role,
+    .final-rosa-oro .section-heading h2,
+    .final-rosa-oro .section-heading .section-index,
+    .final-rosa-oro .project-type,
+    .final-rosa-oro .subtrack,
+    .final-rosa-oro .validation-mark {
+      color: var(--accent);
+    }
+    .final-rosa-oro .hero {
+      grid-template-columns: minmax(0, 1fr) 190px;
+      min-height: 560px;
+      padding: 48px 0 64px;
+      border-bottom: 3px solid var(--ink);
+    }
+    .final-rosa-oro .hero h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(3rem, 7vw, 6.1rem);
+      line-height: .92;
+      letter-spacing: -.045em;
+    }
+    .final-rosa-oro .hero h1 em {
+      color: var(--accent);
+      font-style: italic;
+      font-weight: 400;
+    }
+    .final-rosa-oro .hero .lead {
+      max-width: 760px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.08rem, 1.7vw, 1.22rem);
+      font-style: italic;
+      border-top: 1px solid var(--gold);
+      border-bottom: 1px solid var(--gold);
+      padding: 24px 0;
+    }
+    .final-rosa-oro .hero .lead strong,
+    .final-rosa-oro .lens-copy-ia,
+    .final-rosa-oro .lens-copy-qa {
+      color: var(--accent);
+    }
+    .final-rosa-oro .portrait {
+      border: 1px solid var(--gold);
+      filter: saturate(.88) contrast(1.04);
+    }
+    .final-rosa-oro .section-heading {
+      border-bottom-color: var(--ink);
+    }
+    .final-rosa-oro .feature,
+    .final-rosa-oro .impact-stat,
+    .final-rosa-oro .method-card,
+    .final-rosa-oro .alignment-card,
+    .final-rosa-oro .project-card,
+    .final-rosa-oro .meta-card {
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .final-rosa-oro .feature {
+      border-left: 2px solid var(--gold);
+      border-top-color: var(--gold);
+    }
+    .final-rosa-oro .alignment-card,
+    .final-rosa-oro .project-card,
+    .final-rosa-oro .meta-card {
+      border-top-color: var(--gold);
+      background: var(--surface);
+    }
+    .final-rosa-oro .project-card:hover,
+    .final-rosa-oro .alignment-card:hover,
+    .final-rosa-oro .meta-card:hover,
+    .final-rosa-oro .impact-stat:hover,
+    .final-rosa-oro .method-card:hover {
+      border-top-color: var(--accent);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 26px color-mix(in srgb, var(--accent) 13%, transparent);
+    }
+    .final-rosa-oro .skill-list li {
+      border-color: var(--gold);
+      transition: color .2s ease, border-color .2s ease, transform .2s ease, background-color .2s ease;
+    }
+    .final-rosa-oro .skill-list li:hover {
+      border-color: var(--accent);
+      color: var(--accent-strong);
+      transform: translateY(-2px);
+      background: color-mix(in srgb, var(--accent) 7%, var(--surface));
+    }
+    .final-rosa-oro .right-rail a.is-active {
+      color: var(--accent);
+      border-left-color: var(--accent);
+    }
+    .final-rosa-oro .right-rail a:hover {
+      color: var(--accent);
+    }
+    .final-rosa-oro .method-guardrail {
+      border-left-color: var(--gold);
+      background: color-mix(in srgb, var(--gold) 10%, var(--surface));
+    }
+    .final-rosa-oro .scroll-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 70;
+      width: 100%;
+      height: 3px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: left center;
+      transition: transform .12s linear;
+    }
+    .final-rosa-oro .control-button[aria-pressed="true"] {
+      color: var(--accent-strong);
+      border-color: var(--accent);
+      background: color-mix(in srgb, var(--accent) 10%, transparent);
+    }
+    .final-rosa-oro .footer {
+      border-top-color: var(--gold);
+    }
+    @media (max-width: 900px) {
+      .final-rosa-oro .hero { grid-template-columns: 1fr 160px; }
+    }
+    @media (max-width: 680px) {
+      .final-rosa-oro .hero { grid-template-columns: 1fr; }
+      .final-rosa-oro .hero-photo { width: 150px; justify-self: center; }
+      .final-rosa-oro .hero-copy { text-align: center; }
+      .final-rosa-oro .contact-line { justify-content: center; }
+      .final-rosa-oro .lens-note { margin-left: auto; margin-right: auto; }
+    }
+    @media print {
+      .final-rosa-oro .hero { grid-template-columns: 1fr 140px; }
+      .final-rosa-oro .hero h1 { font-size: 34pt; }
+      .final-rosa-oro .feature,
+      .final-rosa-oro .project-card,
+      .final-rosa-oro .alignment-card,
+      .final-rosa-oro .meta-card { box-shadow: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .final-rosa-oro .project-card:hover,
+      .final-rosa-oro .alignment-card:hover,
+      .final-rosa-oro .meta-card:hover,
+      .final-rosa-oro .impact-stat:hover,
+      .final-rosa-oro .method-card:hover,
+      .final-rosa-oro .skill-list li:hover { transform: none; }
+    }
+
+  
+    /* ===== POSITIONING V6: lenguaje claro + spotlight 3D autocontenido ===== */
+    .positioning-v6 {
+      --accent: #b52f51;
+      --accent-strong: #8f233f;
+      --gold: #b28a45;
+    }
+    body[data-theme="dark"].positioning-v6 {
+      --accent: #f38aa2;
+      --accent-strong: #f3c78f;
+      --gold: #e0b36c;
+    }
+    .positioning-v6 .hero .role {
+      max-width: 620px;
+      font-size: clamp(1.02rem, 1.7vw, 1.22rem);
+    }
+    .positioning-v6 .section-intro,
+    .positioning-v6 .alignment-card p,
+    .positioning-v6 .scope-card p,
+    .positioning-v6 .feature p,
+    .positioning-v6 .method-card p {
+      max-width: 62ch;
+    }
+    .positioning-v6 .scope-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .positioning-v6 .scope-card {
+      position: relative;
+      min-height: 166px;
+      padding: 20px;
+      border-top: 3px solid var(--gold);
+      background: var(--surface);
+      transition: transform .3s ease, border-color .3s ease, box-shadow .3s ease;
+    }
+    .positioning-v6 .scope-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+      box-shadow: 0 12px 28px color-mix(in srgb, var(--accent) 12%, transparent);
+    }
+    .positioning-v6 .scope-level {
+      display: block;
+      margin-bottom: 12px;
+      color: var(--accent);
+      font: 700 10px/1 Arial, Helvetica, sans-serif;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .positioning-v6 .scope-card h3 {
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+    .positioning-v6 .scope-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .9rem;
+      line-height: 1.45;
+    }
+    .positioning-v6 .impact-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .positioning-v6 .impact-stat strong {
+      color: var(--accent);
+    }
+    .positioning-v6 .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .positioning-v6 .spotlight-card {
+      min-height: 270px;
+      overflow: hidden;
+      isolation: isolate;
+      transform: perspective(1000px) rotateX(var(--tilt-y, 0deg)) rotateY(var(--tilt-x, 0deg)) translateY(var(--spot-lift, 0px));
+      transition: transform .22s ease, border-color .3s ease, box-shadow .3s ease;
+    }
+    .positioning-v6 .spotlight-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background: radial-gradient(260px circle at var(--spot-x, 50%) var(--spot-y, 20%), color-mix(in srgb, var(--accent) 15%, transparent), transparent 68%);
+      opacity: .8;
+      transition: opacity .3s ease;
+    }
+    .positioning-v6 .spotlight-card:hover {
+      --spot-lift: -5px;
+      border-color: var(--accent);
+      box-shadow: 0 20px 44px color-mix(in srgb, var(--accent) 14%, transparent);
+    }
+    .positioning-v6 .feature-canvas {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      opacity: .45;
+      pointer-events: none;
+      mix-blend-mode: multiply;
+    }
+    body[data-theme="dark"].positioning-v6 .feature-canvas { mix-blend-mode: screen; opacity: .28; }
+    .positioning-v6 .architect-feature::before {
+      content: "AI SPECIALIST / COLLABORATION";
+    }
+    .positioning-v6 .pending-link {
+      color: var(--muted);
+      border-bottom: 1px dashed var(--gold);
+      cursor: default;
+    }
+    .positioning-v6 .plain-list li {
+      margin-bottom: 6px;
+      line-height: 1.45;
+    }
+    .positioning-v6 .section { margin-bottom: 58px; }
+    @media (max-width: 900px) {
+      .positioning-v6 .scope-grid,
+      .positioning-v6 .feature-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 680px) {
+      .positioning-v6 .scope-grid { gap: 12px; }
+      .positioning-v6 .scope-card { min-height: auto; padding: 17px; }
+      .positioning-v6 .impact-grid { grid-template-columns: 1fr; }
+      .positioning-v6 .spotlight-card { min-height: 0; }
+    }
+    @media print {
+      .positioning-v6 .feature-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .positioning-v6 .scope-grid { gap: 10px; }
+      .positioning-v6 .scope-card { min-height: auto; padding: 10px; }
+      .positioning-v6 .spotlight-card { min-height: auto; }
+      .positioning-v6 .feature-canvas { display: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .positioning-v6 .scope-card,
+      .positioning-v6 .spotlight-card { transition: none; transform: none; }
+      .positioning-v6 .spotlight-card:hover,
+      .positioning-v6 .scope-card:hover { transform: none; }
+      .positioning-v6 .feature-canvas { display: none; }
+    }
+
+    /* ===== V6 FLOW: hero a valor, con ritmo recruiter-first ===== */
+    .positioning-v6 .cv-shell { padding-top: 112px; padding-bottom: 76px; }
+    .positioning-v6 .hero {
+      min-height: 0;
+      grid-template-columns: minmax(0, 1fr) 208px;
+      gap: 52px;
+      align-items: center;
+      padding: 42px 0 48px;
+      margin-bottom: 46px;
+    }
+    .positioning-v6 .hero-copy { min-width: 0; }
+    .positioning-v6 .hero .kicker { margin-bottom: 15px; }
+    .positioning-v6 .hero h1 { margin-bottom: 15px; }
+    .positioning-v6 .hero .role { margin-bottom: 18px; }
+    .positioning-v6 .hero .lead {
+      max-width: 690px;
+      margin-bottom: 18px;
+      padding: 18px 0;
+      font-size: clamp(1rem, 1.4vw, 1.14rem);
+      line-height: 1.5;
+      font-style: normal;
+    }
+    .positioning-v6 .hero-photo {
+      width: 208px;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+    .positioning-v6 .hero-photo::after { display: none; }
+    .positioning-v6 .portrait {
+      position: relative;
+      z-index: 1;
+      width: 194px;
+      height: 194px;
+      aspect-ratio: 1 / 1;
+      border: 1px solid var(--gold);
+      border-radius: 50% !important;
+      clip-path: none;
+      object-fit: cover;
+      object-position: center;
+    }
+    .positioning-v6 .photo-caption {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 208px;
+      margin: 12px 0 0;
+      padding: 0 6px;
+      box-sizing: border-box;
+      text-align: center;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: normal;
+      line-height: 1.35;
+    }
+    .positioning-v6 .section { margin-bottom: 50px; }
+    .positioning-v6 .section-heading { padding-bottom: 10px; margin-bottom: 18px; }
+    .positioning-v6 .impact-section { margin-bottom: 48px; }
+    .positioning-v6 .impact-grid,
+    .positioning-v6 .method-grid { gap: 12px; }
+    .positioning-v6 .impact-stat {
+      min-height: 154px;
+      padding: 18px 20px;
+    }
+    .positioning-v6 .impact-stat strong { margin-bottom: 10px; }
+    .positioning-v6 .impact-stat p { max-width: 34ch; }
+    .positioning-v6 .scope-grid { gap: 12px; }
+    .positioning-v6 .scope-card { min-height: 144px; padding: 18px; }
+    .positioning-v6 .scope-level { margin-bottom: 10px; }
+    .positioning-v6 .method-card { min-height: 162px; padding: 18px; }
+    .positioning-v6 .method-step { margin-bottom: 16px; }
+    .positioning-v6 .method-guardrail { margin-top: 12px; padding: 12px 16px; }
+    .positioning-v6 .lens-panel .section-intro { max-width: 700px; margin-bottom: 18px; }
+    .positioning-v6 .value-list { max-width: 740px; gap: 0; }
+    .positioning-v6 .value-list li { padding: 11px 0 11px 20px; border-bottom: 1px solid color-mix(in srgb, var(--line) 72%, transparent); }
+    .positioning-v6 .value-list li:last-child { border-bottom: 0; }
+    .positioning-v6 .feature-grid { gap: 14px; }
+    .positioning-v6 .spotlight-card { min-height: 230px; padding: 24px; }
+    .positioning-v6 .spotlight-card h3 { max-width: 18ch; font-size: clamp(1.5rem, 2.5vw, 2.1rem); }
+    @media (max-width: 900px) {
+      .positioning-v6 .hero { grid-template-columns: minmax(0, 1fr) 164px; gap: 34px; }
+      .positioning-v6 .hero-photo { width: 164px; }
+      .positioning-v6 .portrait { width: 154px; height: 154px; }
+      .positioning-v6 .photo-caption { max-width: 164px; }
+    }
+    @media (max-width: 680px) {
+      .positioning-v6 .cv-shell { padding: 92px 22px 54px; }
+      .positioning-v6 .hero {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        align-items: start;
+        padding: 24px 0 34px;
+        margin-bottom: 32px;
+      }
+      .positioning-v6 .hero-copy { text-align: left; }
+      .positioning-v6 .hero-photo { width: 150px; order: -1; align-self: start; }
+      .positioning-v6 .portrait { width: 140px; height: 140px; }
+      .positioning-v6 .photo-caption { max-width: 150px; }
+      .positioning-v6 .contact-line { justify-content: flex-start; }
+      .positioning-v6 .hero-link-strip { align-self: flex-start; }
+      .positioning-v6 .lens-note { margin-left: 0; margin-right: 0; }
+      .positioning-v6 .section { margin-bottom: 42px; }
+      .positioning-v6 .impact-stat { min-height: auto; }
+      .positioning-v6 .method-card { min-height: auto; }
+      .positioning-v6 .spotlight-card { min-height: 0; }
+    }
+    @media print {
+      .positioning-v6 .cv-shell { padding: 0; }
+      .positioning-v6 .hero { min-height: auto; margin-bottom: 24px; padding: 0 0 22px; }
+      .positioning-v6 .hero .lead { padding: 12px 0; }
+      .positioning-v6 .section { margin-bottom: 24px; }
+      .positioning-v6 .impact-stat,
+      .positioning-v6 .method-card { min-height: auto; }
+      .positioning-v6 .value-list li { padding: 6px 0 6px 18px; }
+      .positioning-v6 .hero-photo { padding: 0; }
+      .positioning-v6 .hero-photo::after { display: none; }
+    }
+
+    /* ===== FOCUS GUTTER: separar texto de la barra de énfasis ===== */
+    body[data-lens="ia"].positioning-v6 section[data-lens-focus="ia"],
+    body[data-lens="qa"].positioning-v6 section[data-lens-focus="qa"],
+    body[data-lens="ia"].positioning-v6 .lens-panel[data-lens-focus="ia"],
+    body[data-lens="qa"].positioning-v6 .lens-panel[data-lens-focus="qa"] {
+      padding-left: 18px;
+      padding-right: 12px;
+    }
+    body[data-lens="ia"].positioning-v6 .experience-item[data-lens-focus="ia"],
+    body[data-lens="qa"].positioning-v6 .experience-item[data-lens-focus="qa"],
+    body[data-lens="ia"].positioning-v6 .skill-block[data-lens-focus="ia"],
+    body[data-lens="qa"].positioning-v6 .skill-block[data-lens-focus="qa"] {
+      padding-left: 18px;
+      padding-right: 12px;
+    }
+    @media (max-width: 680px) {
+      body[data-lens="ia"].positioning-v6 section[data-lens-focus="ia"],
+      body[data-lens="qa"].positioning-v6 section[data-lens-focus="qa"],
+      body[data-lens="ia"].positioning-v6 .lens-panel[data-lens-focus="ia"],
+      body[data-lens="qa"].positioning-v6 .lens-panel[data-lens-focus="qa"],
+      body[data-lens="ia"].positioning-v6 .experience-item[data-lens-focus="ia"],
+      body[data-lens="qa"].positioning-v6 .experience-item[data-lens-focus="qa"],
+      body[data-lens="ia"].positioning-v6 .skill-block[data-lens-focus="ia"],
+      body[data-lens="qa"].positioning-v6 .skill-block[data-lens-focus="qa"] {
+        padding-left: 14px;
+        padding-right: 8px;
+      }
+    }
+
+    /* ===== BRAND TYPE: el sistema de navegación habla con el hero ===== */
+    .positioning-v6 .topbar,
+    .positioning-v6 .brand-mark,
+    .positioning-v6 .header-status,
+    .positioning-v6 .control-label,
+    .positioning-v6 .control-button,
+    .positioning-v6 .right-rail,
+    .positioning-v6 .right-rail a,
+    .positioning-v6 .rail-label,
+    .positioning-v6 .rail-foot {
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    .positioning-v6 .control-button { letter-spacing: .01em; }
+    .positioning-v6 .right-rail a { letter-spacing: .005em; }
+
+    /* ===== V7 CAPABILITY CATALOG: herramientas explicables y seleccionables ===== */
+    .positioning-v7 .skills-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+    .positioning-v7 .skill-block {
+      padding: 22px 0 0;
+      border-top-width: 3px;
+    }
+    .positioning-v7 .skill-block[data-lens-focus="both"] { border-top-color: var(--gold); }
+    .positioning-v7 .skill-block h3 { margin-bottom: 14px; }
+    .positioning-v7 .skill-list { align-items: stretch; gap: 8px; }
+    .positioning-v7 .skill-list li { padding: 0; border: 0; }
+    .positioning-v7 .capability-chip {
+      appearance: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 34px;
+      padding: 8px 10px;
+      border: 1px solid var(--gold);
+      background: color-mix(in srgb, var(--surface) 88%, transparent);
+      color: var(--ink);
+      font: 12px/1.25 Arial, Helvetica, sans-serif;
+      text-align: left;
+      cursor: pointer;
+      transition: color .2s ease, border-color .2s ease, background-color .2s ease, transform .2s ease, box-shadow .2s ease;
+    }
+    .positioning-v7 .capability-chip::after {
+      content: "";
+      color: var(--accent);
+      font-size: 13px;
+      line-height: 1;
+    }
+    .positioning-v7 .capability-chip:hover,
+    .positioning-v7 .capability-chip:focus-visible {
+      border-color: var(--accent);
+      background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+      color: var(--accent-strong);
+      outline: none;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 18px color-mix(in srgb, var(--accent) 14%, transparent);
+    }
+    .positioning-v7 .capability-chip:focus-visible { box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 24%, transparent); }
+    .positioning-v7 .capability-dialog {
+      width: min(620px, calc(100vw - 32px));
+      max-width: 620px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: var(--ink);
+    }
+    .positioning-v7 .capability-dialog::backdrop {
+      background: color-mix(in srgb, var(--ink) 54%, transparent);
+      backdrop-filter: blur(3px);
+    }
+    .positioning-v7 .capability-dialog-panel {
+      max-height: min(82vh, 720px);
+      overflow-y: auto;
+      padding: 28px;
+      border: 1px solid var(--gold);
+      border-top: 3px solid var(--accent);
+      background: var(--surface);
+      box-shadow: 0 24px 70px color-mix(in srgb, var(--ink) 26%, transparent);
+    }
+    .positioning-v7 .capability-dialog-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    .positioning-v7 .capability-dialog-kind {
+      margin: 0 0 8px;
+      color: var(--accent-strong);
+      font: 700 10px/1.2 Arial, Helvetica, sans-serif;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .positioning-v7 .capability-dialog h2 {
+      max-width: 20ch;
+      margin: 0;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      line-height: .98;
+    }
+    .positioning-v7 .capability-dialog-close {
+      flex: 0 0 auto;
+      width: 34px;
+      height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: transparent;
+      color: var(--ink);
+      font: 20px/1 Arial, Helvetica, sans-serif;
+      cursor: pointer;
+    }
+    .positioning-v7 .capability-dialog-close:hover,
+    .positioning-v7 .capability-dialog-close:focus-visible {
+      border-color: var(--accent);
+      color: var(--accent);
+      outline: none;
+    }
+    .positioning-v7 .capability-dialog-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      padding: 20px 0 16px;
+    }
+    .positioning-v7 .capability-dialog-section h3 {
+      margin-bottom: 6px;
+      color: var(--accent-strong);
+      font: 700 10px/1.2 Arial, Helvetica, sans-serif;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .positioning-v7 .capability-dialog-section p,
+    .positioning-v7 .capability-dialog-section li {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .positioning-v7 .capability-dialog-section p { margin: 0; }
+    .positioning-v7 .capability-dialog-section ul { margin: 0; padding-left: 17px; }
+    .positioning-v7 .capability-dialog-status {
+      margin: 0;
+      padding: 10px 12px;
+      border-left: 2px solid var(--gold);
+      background: color-mix(in srgb, var(--gold) 10%, transparent);
+      color: var(--muted);
+      font: 12px/1.45 Arial, Helvetica, sans-serif;
+    }
+    .positioning-v7 .capability-dialog-status[data-status="applied"] { border-left-color: var(--accent); }
+    .positioning-v7 .capability-dialog-status[data-status="exploration"] { border-left-color: var(--gold); }
+    .positioning-v7 .capability-dialog-status[data-status="declared"] { border-left-color: var(--muted); }
+    .positioning-v7 .capability-dialog[open] .capability-dialog-panel { animation: capability-dialog-in .18s ease-out both; }
+    @keyframes capability-dialog-in {
+      from { opacity: 0; transform: translateY(8px) scale(.985); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    @media (max-width: 900px) {
+      .positioning-v7 .skills-grid { gap: 18px; }
+    }
+    @media (max-width: 680px) {
+      .positioning-v7 .skills-grid { grid-template-columns: 1fr; gap: 18px; }
+      .positioning-v7 .capability-dialog { width: calc(100vw - 20px); }
+      .positioning-v7 .capability-dialog-panel { max-height: 88vh; padding: 22px 18px; }
+      .positioning-v7 .capability-dialog-grid { grid-template-columns: 1fr; gap: 14px; padding-top: 18px; }
+      .positioning-v7 .capability-dialog h2 { max-width: 16ch; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .positioning-v7 .capability-chip:hover,
+      .positioning-v7 .capability-chip:focus-visible { transform: none; }
+      .positioning-v7 .capability-dialog[open] .capability-dialog-panel { animation: none; }
+    }
+
+    /* ===== V8 COMMON: initials, left rail, calmer rhythm and purposeful motion ===== */
+    .positioning-v8 .topbar {
+      min-height: 64px;
+      padding: 10px 24px;
+      gap: 16px;
+      border-top: 2px solid var(--accent);
+      transition: box-shadow .24s ease;
+    }
+    .positioning-v8.is-scrolled .topbar { min-height: 56px; padding-top: 7px; padding-bottom: 7px; box-shadow: 0 10px 24px color-mix(in srgb, var(--ink) 8%, transparent); }
+    .positioning-v8 .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--accent);
+      border-radius: 50%;
+      color: var(--accent-strong);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 14px;
+      letter-spacing: .04em;
+    }
+    .positioning-v8 .brand-mark span { display: none; }
+    .positioning-v8 .header-status,
+    .positioning-v8 .control-label,
+    .positioning-v8 .control-button,
+    .positioning-v8 .right-rail { font-family: Georgia, "Times New Roman", serif; }
+    .positioning-v8 .header-status { letter-spacing: .02em; }
+    .positioning-v8 .right-rail { left: 24px; right: auto; width: 122px; }
+    .positioning-v8 .right-rail a { padding-left: 0; padding-right: 10px; border-left: 0; border-right: 1px solid var(--line); }
+    .positioning-v8 .right-rail a:hover,
+    .positioning-v8 .right-rail a.is-active { padding-left: 0; padding-right: 9px; border-right: 2px solid var(--accent); }
+    .positioning-v8 .cv-shell { padding-left: 184px; padding-right: 42px; }
+    .positioning-v8 .section { scroll-margin-top: 88px; }
+    .positioning-v8 .capability-chip::after { content: ""; width: 7px; height: 7px; border-top: 1.5px solid var(--accent); border-right: 1.5px solid var(--accent); transform: rotate(45deg); }
+    .positioning-v8 .capability-chip.is-selected { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, var(--surface)); color: var(--accent-strong); box-shadow: 0 8px 20px color-mix(in srgb, var(--accent) 15%, transparent); }
+    .positioning-v8.has-js .cv-shell > .section { transition: transform .42s cubic-bezier(.2,.75,.25,1), clip-path .42s ease, opacity .42s ease; }
+    .positioning-v8.has-js .cv-shell > .section:not(.is-revealed) { opacity: .96; transform: translateY(12px); clip-path: inset(0 0 7% 0); }
+    .positioning-v8.has-js .cv-shell > .section.is-revealed { opacity: 1; transform: translateY(0); clip-path: inset(0 0 0 0); }
+    .positioning-v8 .capability-dialog-close { min-width: 44px; min-height: 44px; }
+    @media (max-width: 900px) {
+      .positioning-v8 .cv-shell { padding-left: 42px; padding-right: 42px; }
+      .positioning-v8 .right-rail { left: auto; right: auto; width: auto; padding: 18px 42px 0; }
+      .positioning-v8 .right-rail a { padding: 7px 10px; border: 1px solid var(--line); }
+      .positioning-v8 .right-rail a:hover,
+      .positioning-v8 .right-rail a.is-active { padding: 7px 10px; border: 1px solid var(--accent); }
+    }
+    @media (max-width: 680px) {
+      .positioning-v8 .cv-shell { padding: 92px 22px 60px; }
+      .positioning-v8 .right-rail { padding: 12px 22px 0; }
+      .positioning-v8 .topbar { padding-left: 16px; padding-right: 16px; }
+      .positioning-v8 .brand-mark { width: 32px; height: 32px; font-size: 12px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .positioning-v8 .topbar, .positioning-v8 .capability-chip { transition: none; }
+      .positioning-v8.has-js .cv-shell > .section:not(.is-revealed) { opacity: 1; transform: none; clip-path: none; }
+    }
+    /* ===== V8 A: editorial left rail ===== */
+    body[data-v8-style="editorial"] { --paper: #f3eee7; --surface: #fffaf3; --ink: #1c1717; --muted: #6f6462; --line: #d9cbc2; --header: rgba(255,250,243,.92); }
+    body[data-v8-style="editorial"] .hero { min-height: 650px; gap: 58px; padding-top: 48px; }
+    body[data-v8-style="editorial"] .hero-copy { max-width: 760px; }
+    body[data-v8-style="editorial"] .section { margin-bottom: 64px; }
+    /* ===== V8 B: blueprint operator ===== */
+    body[data-v8-style="blueprint"] { --paper: #edf3f7; --surface: #f8fbfd; --ink: #12233b; --muted: #52677b; --line: #b8cad8; --header: rgba(248,251,253,.94); --accent: #275d89; --accent-strong: #16436a; --gold: #a47d37; }
+    body[data-v8-style="blueprint"] .brand-mark { border-radius: 4px; }
+    body[data-v8-style="blueprint"] .hero { min-height: 620px; border-bottom-style: dashed; }
+    body[data-v8-style="blueprint"] .kicker,
+    body[data-v8-style="blueprint"] .section-index,
+    body[data-v8-style="blueprint"] .rail-label,
+    body[data-v8-style="blueprint"] .skill-count { font-family: "Courier New", monospace; letter-spacing: .08em; }
+    body[data-v8-style="blueprint"] .skill-block { padding: 22px; border: 1px solid var(--line); border-top: 2px solid var(--accent); background: color-mix(in srgb, var(--surface) 86%, transparent); }
+    body[data-v8-style="blueprint"] .skill-block[data-lens-focus="both"] { border-top-color: var(--gold); }
+    body[data-v8-style="blueprint"] .capability-chip { border-radius: 0; border-style: dashed; background: transparent; font-family: "Courier New", monospace; font-size: 11px; }
+    body[data-v8-style="blueprint"] .capability-chip:hover,
+    body[data-v8-style="blueprint"] .capability-chip:focus-visible { background: color-mix(in srgb, var(--accent) 9%, var(--surface)); }
+    body[data-v8-style="blueprint"] .right-rail { width: 132px; }
+    /* ===== V8 DESTILLED 2: blueprint structure + quiet atlas restraint ===== */
+    body[data-v8-style="blueprint-final"] { --accent: #275d89; --accent-strong: #16436a; --gold: #a47d37; }
+    body[data-v8-style="blueprint-final"] .hero { min-height: 600px; border-bottom: 2px solid var(--ink); }
+    body[data-v8-style="blueprint-final"] .section-heading { border-bottom-color: var(--ink); }
+    body[data-v8-style="blueprint-final"] .skill-block { padding: 20px 0 0; border: 0; border-top: 1px solid var(--ink); background: transparent; }
+    body[data-v8-style="blueprint-final"] .skill-block[data-lens-focus="both"] { border-top-color: var(--gold); }
+    body[data-v8-style="blueprint-final"] .capability-chip { border: 0; border-bottom: 1px dashed var(--line); border-radius: 0; background: transparent; font-family: "Courier New", monospace; }
+    body[data-v8-style="blueprint-final"] .capability-chip:hover,
+    body[data-v8-style="blueprint-final"] .capability-chip:focus-visible { transform: translateX(4px); background: color-mix(in srgb, var(--accent) 7%, var(--surface)); box-shadow: none; }
+    body[data-v8-style="blueprint-final"] .right-rail { width: 122px; }
+    .positioning-v8 .external-mark { display: inline-block; width: 8px; height: 8px; margin-left: 4px; border-top: 1.5px solid currentColor; border-right: 1.5px solid currentColor; transform: translateY(1px) rotate(45deg); }
+    /* ===== V9: blueprint structure + Editorial Lens rose/gold palette ===== */
+    body[data-v9-style="rose-agentic"] {
+      --paper: #f3eee7;
+      --surface: #fffaf3;
+      --ink: #1c1717;
+      --muted: #6f6462;
+      --line: #d9cbc2;
+      --accent: #b52f51;
+      --accent-strong: #8f233f;
+      --gold: #b28a45;
+      --header: rgba(255, 250, 243, .94);
+      background-image: none;
+    }
+    body[data-theme="dark"][data-v9-style="rose-agentic"] {
+      --paper: #1d1818;
+      --surface: #292121;
+      --ink: #f7eee7;
+      --muted: #c8b7b0;
+      --line: #594848;
+      --accent: #f38aa2;
+      --accent-strong: #f3c78f;
+      --gold: #e0b36c;
+      --header: rgba(29, 24, 24, .95);
+    }
+    .positioning-v9 .hero { min-height: 590px; }
+    .positioning-v9 .hero-copy { max-width: 780px; }
+    .positioning-v9 .role { max-width: 64ch; }
+    .positioning-v9 .lead { max-width: 72ch; }
+    .positioning-v9 .control-button,
+    .positioning-v9 .right-rail a,
+    .positioning-v9 .capability-chip { min-height: 44px; }
+    .positioning-v9 .control-button { display: inline-grid; place-items: center; padding: 9px 11px; }
+    .positioning-v9 .right-rail a { display: flex; align-items: center; }
+    .positioning-v9 .capability-chip { width: 100%; line-height: 1.35; text-align: left; }
+    .positioning-v9 .capability-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      margin: -6px 0 28px;
+      color: var(--muted);
+      font: 12px/1.45 Arial, Helvetica, sans-serif;
+    }
+    .positioning-v9 .capability-legend span { display: inline-flex; align-items: center; gap: 7px; }
+    .positioning-v9 .capability-legend span::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border: 1px solid var(--accent);
+      background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+    }
+    .positioning-v9 .skill-intro { max-width: 74ch; margin: 0 0 28px; color: var(--muted); }
+    .positioning-v9 .skill-block > p { max-width: 64ch; margin: 0 0 14px; color: var(--muted); font-size: .9rem; }
+    .positioning-v9 .capability-dialog-panel { max-height: min(720px, calc(100dvh - 32px)); overflow-y: auto; }
+    .positioning-v9 .capability-dialog-status[data-status="assisted"] { border-left-color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, transparent); }
+    @media (max-width: 900px) {
+      .positioning-v9 .right-rail {
+        position: sticky;
+        top: 64px;
+        z-index: 40;
+        margin-top: 72px;
+        padding: 8px 22px;
+        overflow-x: auto;
+        background: var(--header);
+        border-bottom: 1px solid var(--line);
+        scrollbar-width: thin;
+      }
+      .positioning-v9 .right-rail .rail-label { display: none; }
+      .positioning-v9 .right-rail nav { display: flex; flex-wrap: nowrap; width: max-content; gap: 6px; }
+      .positioning-v9 .right-rail a,
+      .positioning-v9 .right-rail a:hover,
+      .positioning-v9 .right-rail a.is-active { min-height: 44px; padding: 8px 12px; white-space: nowrap; }
+      .positioning-v9 .cv-shell { padding-top: 26px; }
+    }
+    @media (max-width: 680px) {
+      .positioning-v9 .topbar { min-height: 64px; height: 64px; flex-wrap: nowrap; overflow: hidden; }
+      .positioning-v9 .brand-mark { flex: 0 0 auto; }
+      .positioning-v9 .control-row {
+        min-width: 0;
+        flex: 1 1 auto;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+        overscroll-behavior-inline: contain;
+      }
+      .positioning-v9 .control-row::-webkit-scrollbar { display: none; }
+      .positioning-v9 .control-group { flex: 0 0 auto; }
+      .positioning-v9 .right-rail { top: 64px; margin-top: 64px; padding-inline: 14px; }
+      .positioning-v9 .cv-shell { padding: 24px 22px 60px; }
+      .positioning-v9 .hero { padding-top: 20px; }
+      .positioning-v9 .capability-dialog-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Katherine Oquendo Lopera",
+    "jobTitle": "IA aplicada, automatización agéntica y aseguramiento de calidad",
+    "email": "mailto:kathe5725@gmail.com",
+    "telephone": "+57 304 576 0517",
+    "address": { "@type": "PostalAddress", "addressLocality": "Medellín", "addressCountry": "CO" },
+    "url": "https://metodologia.info",
+    "sameAs": ["https://linkedin.com/in/katherinoquendo"],
+    "knowsAbout": ["Generative AI", "AI agents", "Agentic automation", "Prompt Engineering", "Context Engineering", "QA Automation", "Selenium WebDriver", "Serenity BDD", "Playwright", "RPA foundations", "AI-assisted testing", "Responsible AI", "Human-in-the-loop validation", "Traceability"]
+  }
+  </script>
+</head>
+<body class="editorial excellence-v2 excellence-v3 excellence-v4 final-rosa-oro positioning-v6 positioning-v7 positioning-v8 positioning-v9 has-js" data-variant="blueprint-rosa-agentica-v9" data-v8-style="blueprint-final" data-v9-style="rose-agentic" data-theme="light" data-lang="es" data-lens="all">
+  <div class="scroll-progress" aria-hidden="true" style="transform: scaleX(0);"></div>
+  <header class="topbar">
+    <div class="brand-mark" aria-label="Katherine Oquendo">KO</div>
+    <div class="header-status"><span class="status-dot" aria-hidden="true"></span><span><span class="lang-es">IA aplicada · calidad</span><span class="lang-en">Applied AI · quality</span></span></div>
+    <div class="control-row" aria-label="Controles de vista">
+      <div class="control-group" role="group" aria-label="Lente profesional">
+        <span class="control-label"><span class="lang-es">Lente</span><span class="lang-en">Lens</span></span>
+        <button class="control-button" type="button" data-lens-choice="all" aria-pressed="true"><span class="lang-es">Todo</span><span class="lang-en">All</span></button>
+        <button class="control-button" type="button" data-lens-choice="ia" aria-pressed="false">IA</button>
+        <button class="control-button" type="button" data-lens-choice="qa" aria-pressed="false"><span class="lang-es">Calidad</span><span class="lang-en">Quality</span></button>
+      </div>
+      <div class="control-group" role="group" aria-label="Tema">
+        <span class="control-label"><span class="lang-es">Tema</span><span class="lang-en">Theme</span></span>
+        <button class="control-button" type="button" data-theme-choice="light" aria-pressed="true"><span class="lang-es">Claro</span><span class="lang-en">Light</span></button>
+        <button class="control-button" type="button" data-theme-choice="dark" aria-pressed="false"><span class="lang-es">Oscuro</span><span class="lang-en">Dark</span></button>
+      </div>
+      <div class="control-group" role="group" aria-label="Idioma">
+        <span class="control-label"><span class="lang-es">Idioma</span><span class="lang-en">Language</span></span>
+        <button class="control-button" type="button" data-lang-choice="es" aria-pressed="true">ES</button>
+        <button class="control-button" type="button" data-lang-choice="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+  <aside class="right-rail" aria-label="Navegación del CV">
+    <p class="rail-label"><span class="lang-es">Índice</span><span class="lang-en">Index</span></p>
+    <nav>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#profile" class="is-active"><span class="lang-es">Inicio</span><span class="lang-en">Start</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#impact" class=""><span class="lang-es">Impacto</span><span class="lang-en">Impact</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#scope" class=""><span class="lang-es">Cómo aporto</span><span class="lang-en">How I help</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#method" class=""><span class="lang-es">Método</span><span class="lang-en">Method</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#value" class=""><span class="lang-es">Propuesta</span><span class="lang-en">Value</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#stia" class="">STIA</a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#experience" class=""><span class="lang-es">Experiencia</span><span class="lang-en">Experience</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#projects" class=""><span class="lang-es">Proyectos</span><span class="lang-en">Projects</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#skills" class=""><span class="lang-es">Skills</span><span class="lang-en">Skills</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#education" class=""><span class="lang-es">Formación</span><span class="lang-en">Education</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#more" class=""><span class="lang-es">Más</span><span class="lang-en">More</span></a>
+      <a href="file:///J:/Carpeta%2006/metodologia-frames-agent-os/03_artefactos/networks/web/cv-katherine-oquendo/cv-v9-blueprint-rosa-agentica.html#personal"><span class="lang-es">Personal</span><span class="lang-en">Personal</span></a>
+    </nav>
+    <p class="rail-foot">V9 / BLUEPRINT ROSA<br>Capacidades explicables</p>
+  </aside>
+  <main class="cv-shell" itemscope="" itemtype="https://schema.org/Person">
+
+      <section id="profile" class="hero section is-revealed" data-lens-focus="both">
+        <div class="hero-copy">
+          <p class="kicker">MetodologIA / CV 2026 · <span class="lens-copy-ia">IA aplicada</span> + <span class="lens-copy-qa">calidad</span></p>
+          <h1 itemprop="name">Katherine<br><em>Oquendo Lopera</em></h1>
+          <p class="role" itemprop="jobTitle"><span class="lang-es">IA aplicada · automatización agéntica · aseguramiento de calidad</span><span class="lang-en">Applied AI · agentic automation · quality assurance</span></p>
+          <p class="lead"><span class="lang-es">Convierto necesidades operativas y riesgos de calidad en activos de IA que ayudan a las personas a ejecutar procesos de alto rendimiento. Automatizo pruebas y tareas repetitivas, prototipo soluciones con agentes y adapto el stack con estudio, pruebas y revisión del código generado. Así reduzco esfuerzo y mantengo el criterio técnico y la calidez humana.</span><span class="lang-en">I turn operational needs and quality risks into AI assets that help people run high-performance processes. I automate tests and repetitive work, prototype solutions with agents, and adapt the stack through study, testing and review of generated code. This reduces effort while preserving technical judgment and human warmth.</span></p>
+          <div class="contact-line">
+            <span class="contact-item" itemprop="address">Medellín, Colombia</span>
+            <span class="contact-item" itemprop="telephone"><a href="https://wa.me/573045760517" target="_blank" rel="noreferrer" aria-label="Abrir WhatsApp de Katherine Oquendo">+57 304 576 0517</a></span>
+            <span class="contact-item"><a itemprop="email" href="mailto:kathe5725@gmail.com">kathe5725@gmail.com</a></span>
+          </div>
+          <div class="hero-link-strip" aria-label="Enlaces profesionales">
+            <a itemprop="url" href="https://metodologia.info/">metodologia.info</a>
+            <a href="https://linkedin.com/in/katherinoquendo" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+          <p class="lens-note" aria-live="polite"><span data-lens-message=""><span class="lang-es">Vista completa: IA aplicada y calidad se leen como un solo perfil.</span><span class="lang-en">Full view: applied AI and quality read as one profile.</span></span></p>
+        </div>
+        <figure class="hero-photo">
+          <img class="portrait" itemprop="image" src="data:image/jpeg;base64,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" alt="Retrato profesional de Katherine Oquendo Lopera">
+          <figcaption class="photo-caption"><span class="lang-es">IA aplicada con calidez humana.</span><span class="lang-en">Applied AI with human warmth.</span></figcaption>
+        </figure>
+      </section>
+
+      <section id="impact" class="section impact-section is-revealed" data-lens-focus="both" aria-label="Impacto observable">
+        <div class="section-heading"><h2><span class="lang-es">Impacto en una mirada</span><span class="lang-en">Impact at a glance</span></h2><span class="section-index">00 / IMPACT</span></div>
+        <div class="impact-grid">
+          <article class="impact-stat" data-lens-focus="ia"><strong>1 prompt</strong><h3><span class="lang-es">Primer paso con poco esfuerzo</span><span class="lang-en">First step with low effort</span></h3><p><span class="lang-es">Esfuerzo inicial para convertir una idea en un prototipo y validarlo antes de invertir más.</span><span class="lang-en">Initial effort to turn an idea into a prototype and validate it before investing more.</span></p></article>
+          <article class="impact-stat" data-lens-focus="ia"><strong>≥30%</strong><h3><span class="lang-es">Primer objetivo de eficiencia</span><span class="lang-en">First efficiency goal</span></h3><p><span class="lang-es">Al menos 30% de mejora en eficiencia: menos tiempo o esfuerzo para completar el proceso después del primer mes con IA, frente a su línea base.</span><span class="lang-en">At least 30% efficiency improvement: less time or effort to complete the process after the first month with AI, compared with its baseline.</span></p></article>
+          <article class="impact-stat" data-lens-focus="qa"><strong>≥40%</strong><h3><span class="lang-es">Primer objetivo de calidad</span><span class="lang-en">First quality goal</span></h3><p><span class="lang-es">Al menos 40% de mejora en calidad: menos errores y mayor cumplimiento de criterios, medidos con indicadores, pruebas y criterio humano.</span><span class="lang-en">At least 40% quality improvement: fewer errors and stronger criteria compliance, measured through indicators, testing and human judgment.</span></p></article>
+        </div>
+      </section>
+
+
+      <section id="scope" class="section scope-section is-revealed" data-lens-focus="both" aria-label="Niveles de impacto">
+          <div class="section-heading"><h2><span class="lang-es">Activos que ayudan a rendir mejor</span><span class="lang-en">AI assets for better performance</span></h2><span class="section-index">01 / VALUE LEVELS</span></div>
+          <div class="scope-grid">
+          <article class="scope-card" data-lens-focus="both"><span class="scope-level"><span class="lang-es">Operativo</span><span class="lang-en">Operational</span></span><h3><span class="lang-es">Apoyo el foco de las personas</span><span class="lang-en">Support people’s focus</span></h3><p><span class="lang-es">Convierto tareas repetitivas en asistentes y guías para liberar atención y sostener una ejecución consistente.</span><span class="lang-en">Turn repetitive tasks into assistants and guides that free attention and support consistent execution.</span></p></article>
+          <article class="scope-card" data-lens-focus="ia"><span class="scope-level"><span class="lang-es">Táctico</span><span class="lang-en">Tactical</span></span><h3><span class="lang-es">Conecto riesgos con mejoras</span><span class="lang-en">Connect risks to improvements</span></h3><p><span class="lang-es">Traduzco necesidades y riesgos en prioridades, objetivos y medidas que un equipo puede aplicar.</span><span class="lang-en">Translate needs and risks into priorities, goals and measures a team can apply.</span></p></article>
+          <article class="scope-card" data-lens-focus="both"><span class="scope-level"><span class="lang-es">Mirada estratégica</span><span class="lang-en">Strategic perspective</span></span><h3><span class="lang-es">Construyo capacidad adaptable</span><span class="lang-en">Build adaptable capability</span></h3><p><span class="lang-es">Convierto mejoras puntuales en activos reutilizables y preparo su evolución hacia agentes, nuevos procesos o stacks tecnológicos.</span><span class="lang-en">Turn single improvements into reusable assets and prepare their evolution toward agents, new processes or technology stacks.</span></p></article>
+        </div>
+      </section>
+
+      <section id="method" class="section method-section is-revealed" data-lens-focus="both" aria-label="Método de trabajo">
+        <div class="section-heading"><h2><span class="lang-es">Método PASA</span><span class="lang-en">PASA method</span></h2><span class="section-index">02 / METHOD</span></div>
+        <p class="section-intro"><span class="lang-es">Aclaro la necesidad, aplico IA, mido el cambio y dejo una forma segura de repetirlo.</span><span class="lang-en">I clarify the need, apply AI, measure change and leave a safe way to repeat it.</span></p>
+        <div class="method-grid">
+          <article class="method-card" data-lens-focus="both"><span class="method-step">01</span><h3><span class="lang-es">Planifica</span><span class="lang-en">Plan</span></h3><p><span class="lang-es">Define resultado, personas e indicador.</span><span class="lang-en">Define outcome, people and metric.</span></p></article>
+          <article class="method-card" data-lens-focus="ia"><span class="method-step">02</span><h3><span class="lang-es">Acelera</span><span class="lang-en">Accelerate</span></h3><p><span class="lang-es">Aplica IA a lo repetitivo y concentra el criterio en decidir.</span><span class="lang-en">Apply AI to repetitive work and focus judgment on decisions.</span></p></article>
+          <article class="method-card" data-lens-focus="qa"><span class="method-step">03</span><h3><span class="lang-es">Sistematiza</span><span class="lang-en">Systematize</span></h3><p><span class="lang-es">Documenta pasos, excepciones y evidencia.</span><span class="lang-en">Document steps, exceptions and evidence.</span></p></article>
+          <article class="method-card" data-lens-focus="both"><span class="method-step">04</span><h3><span class="lang-es">Amplifica</span><span class="lang-en">Amplify</span></h3><p><span class="lang-es">Convierte la mejora en capacidad reutilizable.</span><span class="lang-en">Turn improvement into reusable capability.</span></p></article>
+        </div>
+        <div class="method-guardrail"><strong><span class="lang-es">Calidez humana</span><span class="lang-en">Human warmth</span></strong> · <span class="lang-es">la IA propone; una persona aporta contexto y criterio.</span><span class="lang-en">AI proposes; a person brings context and judgment.</span></div>
+      </section>
+
+      <section id="value" class="section lens-panel is-revealed" data-lens-focus="ia">
+        <div class="section-heading"><h2><span class="lang-es">De la necesidad al activo de IA</span><span class="lang-en">From need to AI asset</span></h2><span class="section-index">03 / APPLIED AI</span></div>
+        <p class="section-intro"><span class="lang-es">Convierto necesidades y riesgos en activos de IA para procesos de alto rendimiento.</span><span class="lang-en">I turn needs and risks into AI assets for high-performance processes.</span></p>
+        <ul class="value-list">
+          <li><span class="lang-es">Foco: convierto tareas repetitivas en asistentes y guías.</span><span class="lang-en">Focus: turn repetitive work into assistants and guides.</span></li>
+          <li><span class="lang-es">Eficiencia: primer objetivo de 30% menos tiempo o esfuerzo tras el primer mes con IA.</span><span class="lang-en">Efficiency: first goal of 30% less time or effort after the first month with AI.</span></li>
+          <li><span class="lang-es">Calidad: primer objetivo de 40% menos errores o mayor cumplimiento, medido con pruebas.</span><span class="lang-en">Quality: first goal of 40% fewer errors or stronger compliance, measured through testing.</span></li>
+          <li><span class="lang-es">Escala: convierto aprendizajes en formas de trabajo reutilizables.</span><span class="lang-en">Scale: turn learning into reusable ways of working.</span></li>
+        </ul>
+      </section>
+
+      <section id="stia" class="section is-revealed" data-lens-focus="both">
+        <div class="feature-grid">
+          <article class="feature spotlight-card" data-spotlight="" data-lens-focus="both" style="--tilt-x: 0deg; --tilt-y: 0deg;">
+            <canvas class="feature-canvas" data-constellation="" aria-hidden="true" width="467" height="400"></canvas>
+            <div class="feature-meta"><span class="validation-mark"><span class="lang-es">IA aplicada + calidad</span><span class="lang-en">Applied AI + quality</span></span><span>·</span><span class="validation-mark"><span class="lang-es">Proyecto propio</span><span class="lang-en">Own project</span></span></div>
+            <h3>STIA — Software Testing Intelligence Assistant</h3>
+             <p><span class="lang-es">STIA convierte una necesidad de calidad en un activo de trabajo: organiza requisitos, casos, resultados y evidencias para encontrar errores antes y repetir la validación. Su primer objetivo es mejorar al menos 40% los indicadores de calidad definidos después de intervenir con IA, siempre con pruebas y criterio humano.</span><span class="lang-en">STIA turns a quality need into a working asset: it organizes requirements, cases, results and evidence to find errors earlier and repeat validation. Its first goal is to improve defined quality indicators by at least 40% after AI intervention, always with testing and human judgment.</span></p>
+            <a class="feature-link" href="https://chatgpt.com/g/g-6a74f5fe40648191b7fae3376689aa45-stia-software-testing-intelligence-assistant" target="_blank" rel="noreferrer"><span class="lang-es">Conocer STIA</span><span class="lang-en">Explore STIA</span> <span aria-hidden="true"><span class="external-mark" aria-hidden="true"></span></span></a>
+          </article>
+          <article class="feature spotlight-card architect-feature" data-spotlight="" data-lens-focus="ia">
+            <canvas class="feature-canvas" data-constellation="" aria-hidden="true" width="467" height="400"></canvas>
+            <div class="feature-meta"><span class="validation-mark"><span class="lang-es">Colaboración</span><span class="lang-en">Collaboration</span></span><span>·</span><span><span class="lang-es">Arquitectura de IA</span><span class="lang-en">AI architecture</span></span></div>
+            <h3><span class="lang-es">Especialista en IA</span><span class="lang-en">AI specialist</span></h3>
+             <p><span class="lang-es">Componente colaborador para complementar STIA con experiencia especializada en IA generativa y diseño de soluciones.</span><span class="lang-en">Collaborator component that complements STIA with specialized expertise in generative AI and solution design.</span></p>
+            <a class="feature-link" href="https://chatgpt.com/g/g-6a7646f1f12881919f3fa3d946340246-especialista-en-ia" target="_blank" rel="noreferrer"><span class="lang-es">Conocer especialista</span><span class="lang-en">Explore specialist</span> <span aria-hidden="true"><span class="external-mark" aria-hidden="true"></span></span></a>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section is-revealed" data-lens-focus="both">
+        <div class="section-heading"><h2><span class="lang-es">Experiencia profesional</span><span class="lang-en">Professional experience</span></h2><span class="section-index">05 / EXPERIENCE</span></div>
+        <div class="experience-list">
+          <article class="experience-item" data-lens-focus="ia">
+            <div class="experience-time"><strong>2024 — <span class="lang-es">Actualidad</span><span class="lang-en">Present</span></strong><span>MetodologIA</span></div>
+            <div><h3><span class="lang-es">IA aplicada / Facilitadora</span><span class="lang-en">Applied AI / Facilitator</span></h3><p class="experience-company"><span class="lang-es">MetodologIA y proyectos de mejora</span><span class="lang-en">MetodologIA and improvement projects</span></p><p class="subtrack"><span class="lang-es">Mejora de procesos · asistentes · formación · adopción responsable</span><span class="lang-en">Process improvement · assistants · training · responsible adoption</span></p><ul class="plain-list">
+              <li><span class="lang-es">Convierto tareas repetitivas en asistentes, plantillas y guías que reducen esfuerzo y producen documentos consistentes.</span><span class="lang-en">Turn repetitive tasks into assistants, templates and guides that reduce effort and produce consistent documents.</span></li>
+              <li><span class="lang-es">Llevo una idea a un primer prototipo con un prompt: un punto de partida rápido para revisar antes de invertir más.</span><span class="lang-en">Take an idea to a first prototype with one prompt: a fast starting point to review before investing more.</span></li>
+              <li><span class="lang-es">Establezco el primer objetivo de eficiencia: al menos 30% de mejora después del primer mes de intervención con IA, frente a la línea base.</span><span class="lang-en">Set the first efficiency goal: at least 30% improvement after the first month of AI intervention, compared with the baseline.</span></li>
+              <li><span class="lang-es">Acompaño a equipos para usar, revisar y convertir lo creado en una forma de trabajo repetible.</span><span class="lang-en">Help teams use, review and turn what is built into a repeatable way of working.</span></li>
+            </ul></div>
+          </article>
+          <article class="experience-item" data-lens-focus="qa">
+            <div class="experience-time"><strong>feb 2024 — feb 2026</strong><span>Sofka Technologies</span></div>
+            <div><h3><span class="lang-es">Aseguramiento de calidad / Pruebas de software</span><span class="lang-en">Quality assurance / Software testing</span></h3><p class="experience-company">Sofka Technologies · GNP</p><p class="subtrack"><span class="lang-es">Calidad de procesos · pruebas · automatización</span><span class="lang-en">Process quality · testing · automation</span></p><ul class="plain-list">
+              <li><span class="lang-es">Mejoré la confiabilidad de entregables para un cliente asegurador en un contexto regulado y sensible.</span><span class="lang-en">Improved deliverable reliability for an insurance client in a regulated, sensitive context.</span></li>
+              <li><span class="lang-es">Hice visible la calidad: organicé pruebas, evidencias y hallazgos para que los equipos pudieran decidir y corregir a tiempo.</span><span class="lang-en">Made quality visible: organized testing, evidence and findings so teams could decide and correct issues on time.</span></li>
+              <li><span class="lang-es">Establecí el primer objetivo de calidad: al menos 40% de mejora después de intervenir con IA, medido con indicadores, pruebas y criterio humano.</span><span class="lang-en">Set the first quality goal: at least 40% improvement after AI intervention, measured through indicators, testing and human judgment.</span></li>
+              <li><span class="lang-es">Construí una base de pruebas web y API con Selenium WebDriver, Rest Assured y herramientas de seguimiento.</span><span class="lang-en">Built a web and API testing foundation with Selenium WebDriver, Rest Assured and tracking tools.</span></li>
+              <li><span class="lang-es">Usé IA para revisar requisitos, escenarios borde y documentación sin delegar el criterio final.</span><span class="lang-en">Used AI to review requirements, edge cases and documentation without delegating final judgment.</span></li>
+            </ul></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section is-revealed" data-lens-focus="ia">
+        <div class="section-heading"><h2><span class="lang-es">Proyectos de IA aplicada</span><span class="lang-en">Applied AI projects</span></h2><span class="section-index">06 / PROJECTS</span></div>
+        <div class="project-grid">
+          <article class="project-card" data-lens-focus="ia"><p class="project-type"><span class="lang-es">Asistente de IA</span><span class="lang-en">AI assistant</span></p><h3>Prompting Pro</h3><p><span class="lang-es">Convierte ideas difusas en instrucciones claras: ordena objetivo, contexto, límites, criterios de aceptación y formato de salida para pasar a un primer prototipo con 1 prompt, listo para validar.</span><span class="lang-en">Turns fuzzy ideas into clear instructions: organizes objective, context, boundaries, acceptance criteria and output format to reach a first prototype with one prompt, ready for validation.</span></p><a class="project-link" href="https://chatgpt.com/g/Prompting-Pro" target="_blank" rel="noreferrer"><span class="lang-es">Abrir asistente</span><span class="lang-en">Open assistant</span> <span class="external-mark" aria-hidden="true"></span></a></article>
+          <article class="project-card" data-lens-focus="ia"><p class="project-type"><span class="lang-es">Asistente de IA</span><span class="lang-en">AI assistant</span></p><h3>Discovery Assistant</h3><p><span class="lang-es">Reduce la ambigüedad antes de invertir esfuerzo: transforma ideas difusas en objetivo de mejora, alcance, preguntas críticas, riesgos y próximos pasos accionables.</span><span class="lang-en">Reduces ambiguity before effort is invested: turns fuzzy ideas into an improvement goal, scope, critical questions, risks and actionable next steps.</span></p><a class="project-link" href="https://chatgpt.com/g/Discovery-Assistant" target="_blank" rel="noreferrer"><span class="lang-es">Abrir asistente</span><span class="lang-en">Open assistant</span> <span class="external-mark" aria-hidden="true"></span></a></article>
+          <article class="project-card" data-lens-focus="both"><p class="project-type">IA + Dev</p><h3>Agentic Development Kit Beta</h3><p><span class="lang-es">Acerca el prototipado a una validación responsable: coautoría de instrucciones, flujos de prueba y mejoras de asistencia para explorar entornos agénticos con control humano.</span><span class="lang-en">Brings prototyping closer to responsible validation: co-authored instructions, test flows and assistance improvements to explore agentic environments with human control.</span></p><a class="project-link" href="https://github.com/KatherinOquendo/ko-adk-beta" target="_blank" rel="noreferrer">GitHub <span class="external-mark" aria-hidden="true"></span></a></article>
+          <article class="project-card" data-lens-focus="both"><p class="project-type">IA + Dev</p><h3>Agentic Development Kit Alfa</h3><p><span class="lang-es">Establece una base para escalar con control: colaboración local-first en guardrails, puertas de calidad técnicas y entregables trazables para entornos agénticos.</span><span class="lang-en">Establishes a foundation for controlled scale: local-first collaboration on guardrails, technical quality gates and traceable deliverables for agentic environments.</span></p><a class="project-link" href="https://github.com/KatherinOquendo/ko-adk-alfa" target="_blank" rel="noreferrer">GitHub <span class="external-mark" aria-hidden="true"></span></a></article>
+        </div>
+      </section>
+
+      <section id="skills" class="section is-revealed" data-lens-focus="both">
+        <div class="section-heading"><h2><span class="lang-es">Skills y herramientas</span><span class="lang-en">Skills &amp; tools</span></h2><span class="section-index">07 / CAPABILITIES</span></div>
+        <p class="skill-intro"><span class="lang-es">Desarrollo y automatizo agénticamente: convierto una necesidad en una solución, estudio el stack, reviso el código generado y valido su comportamiento. Así puedo ampliar o adaptar tecnologías con rapidez y criterio.</span><span class="lang-en">I build and automate agentically: I turn a need into a solution, study the stack, review generated code and validate its behavior. This lets me extend or adapt technologies with speed and judgment.</span></p>
+        <p class="capability-legend" aria-label="Niveles de uso"><span><span class="lang-es">Aplicación directa</span><span class="lang-en">Direct application</span></span><span><span class="lang-es">Uso asistido por IA</span><span class="lang-en">AI-assisted use</span></span><span><span class="lang-es">Base para adaptación</span><span class="lang-en">Adaptation foundation</span></span></p>
+        <div class="skills-grid">
+          <article class="skill-block capability-group" data-lens-focus="ia"><h3><span class="lang-es">IA y asistentes</span><span class="lang-en">AI &amp; assistants</span><span class="skill-count">16</span></h3><ul class="skill-list">
+            <li><button class="capability-chip" type="button" data-capability-id="prompt-context"><span class="lang-es">Diseño de instrucciones y contexto</span><span class="lang-en">Prompt and context design</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="assistant-design"><span class="lang-es">Diseño de asistentes IA</span><span class="lang-en">AI assistant design</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="chatgpt"><span>ChatGPT</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="notebooklm"><span>NotebookLM</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="gemini"><span>Gemini</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="claude"><span>Claude</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="claude-code"><span>Claude Code</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="claude-design"><span>Claude Design</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="manus"><span>Manus</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="use-case-prioritization"><span class="lang-es">Casos de uso y priorización</span><span class="lang-en">Use cases and prioritization</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="playbooks"><span class="lang-es">Playbooks y formatos de salida</span><span class="lang-en">Playbooks and output formats</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="docs-roadmaps"><span class="lang-es">Diagnósticos, documentación y hojas de ruta</span><span class="lang-en">Diagnostics, documentation and roadmaps</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="responsible-adoption"><span class="lang-es">Adopción responsable y control humano</span><span class="lang-en">Responsible adoption and human control</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="agent-guardrails"><span class="lang-es">Agentes y guardrails</span><span class="lang-en">Agents and guardrails</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="research-synthesis"><span class="lang-es">Investigación y síntesis con evidencia</span><span class="lang-en">Evidence-based research and synthesis</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="knowledge-transfer"><span class="lang-es">Transferencia de conocimiento</span><span class="lang-en">Knowledge transfer</span></button></li>
+          </ul></article>
+          <article class="skill-block capability-group" data-lens-focus="qa"><h3><span class="lang-es">Calidad y automatización</span><span class="lang-en">Quality &amp; automation</span><span class="skill-count">15</span></h3><p><span class="lang-es">Experiencia en automatización de pruebas y bases de automatización de procesos, con evolución hacia pruebas apoyadas por agentes.</span><span class="lang-en">Experience in test automation and process-automation foundations, evolving toward agent-assisted testing.</span></p><ul class="skill-list">
+            <li><button class="capability-chip" type="button" data-capability-id="qa-automation"><span class="lang-es">QA Automation</span><span class="lang-en">QA automation</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="selenium"><span>Selenium WebDriver</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="serenity"><span>Serenity</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="playwright"><span>Playwright</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="cucumber"><span>Cucumber</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="gherkin-bdd"><span class="lang-es">Gherkin con BDD</span><span class="lang-en">Gherkin with BDD</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="rest-assured"><span>Rest Assured</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="postman"><span>Postman</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="tosca"><span>Tricentis Tosca</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="rpa-foundations"><span class="lang-es">Fundamentos de RPA</span><span class="lang-en">RPA foundations</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="evidence-traceability"><span class="lang-es">Trazabilidad de evidencias</span><span class="lang-en">Evidence traceability</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="jira"><span>Jira</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="azure-devops"><span>Azure DevOps</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="agile-scrum"><span class="lang-es">Trabajo ágil y ciclo de vida de software</span><span class="lang-en">Agile delivery and software lifecycle</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="risk-edge"><span class="lang-es">Riesgo y escenarios borde</span><span class="lang-en">Risk and edge cases</span></button></li>
+          </ul></article>
+          <article class="skill-block capability-group" data-lens-focus="both"><h3><span class="lang-es">Tecnologías para desarrollo agéntico</span><span class="lang-en">Technologies for agentic development</span><span class="skill-count">09</span></h3><p><span class="lang-es">Desarrollo agénticamente en este stack para automatizar, prototipar y probar soluciones. Comprendo el objetivo, reviso el código y valido cada resultado.</span><span class="lang-en">I develop agentically in this stack to automate, prototype and test solutions. I understand the goal, review the code and validate every result.</span></p><ul class="skill-list">
+            <li><button class="capability-chip" type="button" data-capability-id="java"><span>Java</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="sql"><span>SQL</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="mysql"><span>MySQL</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="javascript"><span>JavaScript</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="angular"><span>Angular</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="node"><span>Node.js</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="python-vibe"><span>Python</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="agentic-development"><span class="lang-es">Desarrollo asistido por agentes</span><span class="lang-en">Agent-assisted development</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="agentic-ide"><span class="lang-es">IDEs con agentes de IA</span><span class="lang-en">AI-agent IDEs</span></button></li>
+          </ul></article>
+          <article class="skill-block capability-group" data-lens-focus="both"><h3><span class="lang-es">Ofimática y colaboración</span><span class="lang-en">Productivity &amp; collaboration</span><span class="skill-count">02</span></h3><ul class="skill-list">
+            <li><button class="capability-chip" type="button" data-capability-id="google-workspace"><span>Google Workspace</span></button></li>
+            <li><button class="capability-chip" type="button" data-capability-id="microsoft-365"><span>Microsoft 365</span></button></li>
+          </ul></article>
+        </div>
+      </section>
+
+      <section id="education" class="section is-revealed" data-lens-focus="both">
+        <div class="section-heading"><h2><span class="lang-es">Formación y certificaciones</span><span class="lang-en">Education &amp; certifications</span></h2><span class="section-index">08 / EDUCATION</span></div>
+        <div class="meta-grid">
+          <article class="meta-card"><h3><span class="lang-es">Programa de Empoderamiento en Método + IA</span><span class="lang-en">Empowerment Program in Method + AI</span></h3><p>MetodologIA · Cohorte Creyentes · 2025 · 16 <span class="lang-es">semanas</span><span class="lang-en">weeks</span> · 120 <span class="lang-es">horas</span><span class="lang-en">hours</span><br><span class="lang-es">Finalización: octubre de 2025. Ruta aplicada: prototipado con IA, mini apps, asistentes, skills a medida, automatización, fundamentos de agentes, aproximación a orquestación multiagente, evidencia y mejora continua.</span><span class="lang-en">Completed October 2025. Applied path: AI prototyping, mini apps, assistants, custom skills, automation, agent fundamentals, multi-agent orchestration, evidence and continuous improvement.</span></p></article>
+          <article class="meta-card"><h3><span class="lang-es">Tecnóloga en Automatización Industrial</span><span class="lang-en">Industrial Automation Technologist</span></h3><p>SENA · 2023<br><br><span class="lang-es">Formación complementaria en IA generativa · IBM / Coursera</span><span class="lang-en">Complementary training in generative AI · IBM / Coursera</span></p></article>
+          <article class="meta-card"><h3>Tricentis Tosca</h3><p>AS1 · AS2 · AE1 · TDS1<br>Tricentis · 2024<br><br>ISTQB Foundation Level · Sofka U · 2024</p></article>
+        </div>
+      </section>
+
+      <section id="more" class="section is-revealed" data-lens-focus="both">
+        <div class="section-heading"><h2><span class="lang-es">Experiencia complementaria e idiomas</span><span class="lang-en">Additional experience &amp; languages</span></h2><span class="section-index">09 / MORE</span></div>
+        <div class="meta-grid">
+          <article class="meta-card"><h3>Customer Service Associate</h3><p>Amazon · <span class="lang-es">septiembre 2023 — marzo 2024</span><span class="lang-en">September 2023 — March 2024</span><br><span class="lang-es">Gestión de solicitudes e incidentes con documentación trazable, escalamiento y comunicación efectiva.</span><span class="lang-en">Request and incident management with traceable documentation, escalation and effective communication.</span></p></article>
+          <article class="meta-card"><h3><span class="lang-es">Profesora de español</span><span class="lang-en">Spanish teacher</span></h3><p><span class="lang-es">Clases de español para personas extranjeras angloparlantes, con explicación clara, práctica conversacional y adaptación al nivel.</span><span class="lang-en">Spanish classes for English-speaking international learners, with clear explanations, conversation practice and level adaptation.</span></p></article>
+          <article class="meta-card"><h3><span class="lang-es">Practicante en Automatización Industrial</span><span class="lang-en">Industrial Automation Intern</span></h3><p><span class="lang-es">Compañía Nacional de Chocolates S.A.S.</span><span class="lang-en">Compañía Nacional de Chocolates S.A.S.</span> · <span class="lang-es">octubre 2022 — abril 2023</span><span class="lang-en">October 2022 — April 2023</span><br><span class="lang-es">Reducción del tiempo de inactividad de equipos de medición en 30% mediante rediseño preventivo y análisis de causa raíz.</span><span class="lang-en">Reduced measurement-equipment downtime by 30% through preventive redesign and root-cause analysis.</span></p></article>
+          <article class="meta-card"><h3><span class="lang-es">Idiomas</span><span class="lang-en">Languages</span></h3><p><span class="lang-es">Español — nativo</span><span class="lang-en">Spanish — native</span><br><span class="lang-es">Inglés — B1 técnico, orientado a documentación y comunicación de trabajo.</span><span class="lang-en">English — technical B1, oriented to documentation and workplace communication.</span></p></article>
+        </div>
+      </section>
+
+      <section id="personal" class="section is-revealed" data-lens-focus="both">
+        <div class="section-heading"><h2><span class="lang-es">Intereses y vida personal</span><span class="lang-en">Interests &amp; personal life</span></h2><span class="section-index">10 / PERSONAL</span></div>
+        <div class="meta-grid">
+          <article class="meta-card"><h3><span class="lang-es">Hobbies</span><span class="lang-en">Hobbies</span></h3><p><span class="lang-es">Pintura, series, lectura y dibujo: espacios creativos que alimentan mi curiosidad y sensibilidad visual.</span><span class="lang-en">Painting, TV series, reading and drawing: creative spaces that nurture my curiosity and visual sensitivity.</span></p></article>
+          <article class="meta-card"><h3><span class="lang-es">En lo personal</span><span class="lang-en">Personal</span></h3><p><span class="lang-es">Comparto mi hogar con cinco gatitos. Su cuidado es parte esencial de mi vida cotidiana y fortalece mi paciencia y constancia.</span><span class="lang-en">I share my home with five cats. Caring for them is an essential part of my daily life and strengthens my patience and consistency.</span></p></article>
+        </div>
+      </section>
+
+    <footer class="footer">
+      <span><span class="lang-es">Katherine Oquendo Lopera · Medellín, Colombia</span><span class="lang-en">Katherine Oquendo Lopera · Medellín, Colombia</span></span>
+      <span><span class="lang-es">IA aplicada · calidad · mejora de procesos</span><span class="lang-en">Applied AI · quality · process improvement</span></span>
+    </footer>
+  </main>
+  <dialog class="capability-dialog" id="capability-dialog" aria-labelledby="capability-dialog-title">
+    <div class="capability-dialog-panel">
+      <div class="capability-dialog-header">
+        <div>
+          <p class="capability-dialog-kind" data-dialog-kind=""></p>
+          <h2 id="capability-dialog-title" data-dialog-title=""></h2>
+        </div>
+        <button class="capability-dialog-close" type="button" data-dialog-close="" aria-label="Cerrar detalle">×</button>
+      </div>
+      <div class="capability-dialog-grid">
+        <section class="capability-dialog-section">
+          <h3><span class="lang-es">Qué es</span><span class="lang-en">What it is</span></h3>
+          <p data-dialog-summary=""></p>
+        </section>
+        <section class="capability-dialog-section">
+          <h3><span class="lang-es">Dónde aporta</span><span class="lang-en">Where it helps</span></h3>
+          <p data-dialog-impact=""></p>
+        </section>
+        <section class="capability-dialog-section">
+          <h3><span class="lang-es">Aplicaciones</span><span class="lang-en">Applications</span></h3>
+          <ul data-dialog-use-cases=""></ul>
+        </section>
+        <section class="capability-dialog-section">
+          <h3><span class="lang-es">Mi aplicación</span><span class="lang-en">My application</span></h3>
+          <p data-dialog-evidence=""></p>
+        </section>
+      </div>
+      <p class="capability-dialog-status" data-dialog-status=""></p>
+    </div>
+  </dialog>
+  <script>
+
+    (() => {
+      const body = document.body;
+      const html = document.documentElement;
+      const read = (key) => { try { return localStorage.getItem(key); } catch { return null; } };
+      const write = (key, value) => { try { localStorage.setItem(key, value); } catch {} };
+      const variantKey = "blueprint-rosa-agentica-v9";
+      const setState = (kind, value) => {
+        if (kind === "theme" && !["light", "dark"].includes(value)) return;
+        if (kind === "lang" && !["es", "en"].includes(value)) return;
+        if (kind === "lens" && !["all", "ia", "qa"].includes(value)) return;
+        if (kind === "theme") body.dataset.theme = value;
+        if (kind === "lang") {
+          body.dataset.lang = value;
+          html.lang = value;
+          document.querySelector("[data-dialog-close]")?.setAttribute("aria-label", value === "en" ? "Close details" : "Cerrar detalle");
+          document.querySelector(".control-row")?.setAttribute("aria-label", value === "en" ? "View controls" : "Controles de vista");
+          document.querySelector(".right-rail")?.setAttribute("aria-label", value === "en" ? "CV navigation" : "Navegación del CV");
+        }
+        if (kind === "lens") body.dataset.lens = value;
+        write("cv-" + variantKey + "-" + kind, value);
+        document.querySelectorAll("[data-" + kind + "-choice]").forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset[kind + "Choice"] === value));
+        });
+      };
+      const defaults = {
+        theme: read("cv-" + variantKey + "-theme") || "light",
+        lang: read("cv-" + variantKey + "-lang") || "es",
+        lens: read("cv-" + variantKey + "-lens") || "all"
+      };
+      setState("theme", defaults.theme);
+      setState("lang", defaults.lang);
+      setState("lens", defaults.lens);
+      ["theme", "lang", "lens"].forEach((kind) => {
+        document.querySelectorAll("[data-" + kind + "-choice]").forEach((button) => {
+          button.addEventListener("click", () => setState(kind, button.dataset[kind + "Choice"]));
+        });
+      });
+      const message = document.querySelector("[data-lens-message]");
+      const messages = {
+        all: { es: "Vista completa: IA aplicada y calidad se leen como un solo perfil.", en: "Full view: applied AI and quality read as one profile." },
+        ia: { es: "Lente IA: se destacan mejoras de procesos, asistentes y adopción responsable.", en: "AI lens: process improvements, assistants and responsible adoption are emphasized." },
+        qa: { es: "Lente calidad: se destacan pruebas, confiabilidad, riesgos y mejora.", en: "Quality lens: testing, reliability, risk and improvement are emphasized." }
+      };
+      const renderMessage = () => {
+        if (!message) return;
+        const current = messages[body.dataset.lens] || messages.all;
+        message.innerHTML = '<span class="lang-es">' + current.es + '</span><span class="lang-en">' + current.en + '</span>';
+      };
+
+      const capabilityCatalog = {
+        "prompt-context": { kind: { es: "Competencia IA", en: "AI capability" }, summary: { es: "Forma de estructurar instrucciones, contexto, límites y criterios para que una IA produzca una salida útil.", en: "A way to structure instructions, context, boundaries and criteria so AI produces a useful output." }, impact: { es: "Reduce iteraciones y convierte una necesidad difusa en un primer resultado revisable.", en: "It reduces iterations and turns a fuzzy need into a reviewable first result." }, useCases: { es: ["Definir un primer prototipo con un prompt.", "Crear criterios de aceptación para un documento o flujo.", "Preparar guías reutilizables para un equipo."], en: ["Define a first prototype with one prompt.", "Create acceptance criteria for a document or flow.", "Prepare reusable team guides."] }, evidence: { es: "Lo aplico para ordenar objetivo, contexto, límites y formato antes de construir.", en: "I apply it to order objective, context, boundaries and format before building." }, status: "applied" },
+        "assistant-design": { kind: { es: "Diseño de asistentes", en: "Assistant design" }, summary: { es: "Diseño de instrucciones, comportamiento, fuentes y límites para asistentes que apoyan una tarea concreta.", en: "Design of instructions, behavior, sources and boundaries for assistants that support a specific task." }, impact: { es: "Hace delegables tareas repetitivas sin perder revisión humana en decisiones sensibles.", en: "It makes repetitive tasks delegable without losing human review for sensitive decisions." }, useCases: { es: ["Asistentes para diagnóstico y descubrimiento.", "Guías de trabajo con formatos de salida consistentes.", "Apoyo para documentar decisiones y próximos pasos."], en: ["Discovery and diagnosis assistants.", "Work guides with consistent output formats.", "Support for documenting decisions and next steps."] }, evidence: { es: "He desarrollado asistentes y guías para convertir necesidades difusas en rutas accionables.", en: "I have developed assistants and guides that turn fuzzy needs into actionable paths." }, status: "applied" },
+        chatgpt: { kind: { es: "Herramienta de IA", en: "AI tool" }, summary: { es: "Asistente conversacional para analizar información, redactar, estructurar ideas y acelerar tareas de conocimiento.", en: "A conversational assistant for analyzing information, drafting, structuring ideas and accelerating knowledge work." }, impact: { es: "Disminuye el esfuerzo inicial y libera tiempo para revisar, decidir y ejecutar.", en: "It lowers initial effort and frees time for review, decision-making and execution." }, useCases: { es: ["Estructurar documentos estandarizados.", "Revisar requisitos y escenarios borde.", "Prototipar una guía o asistente desde una idea."], en: ["Structure standardized documents.", "Review requirements and edge cases.", "Prototype a guide or assistant from an idea."] }, evidence: { es: "Lo incorporo en ideación, documentación, análisis y prototipos con revisión humana.", en: "I use it for ideation, documentation, analysis and prototypes with human review." }, status: "applied" },
+        notebooklm: { kind: { es: "Investigación con IA", en: "AI research" }, summary: { es: "Herramienta que ayuda a trabajar sobre un conjunto de fuentes y a sintetizar lo que contienen.", en: "A tool that helps work over a set of sources and synthesize what they contain." }, impact: { es: "Acelera la comprensión de materiales y mantiene la conversación anclada en evidencia.", en: "It accelerates material review and keeps the conversation grounded in evidence." }, useCases: { es: ["Comparar documentos y extraer patrones.", "Preparar síntesis para una decisión.", "Convertir fuentes en preguntas y rutas de trabajo."], en: ["Compare documents and extract patterns.", "Prepare a decision-ready synthesis.", "Turn sources into questions and work paths."] }, evidence: { es: "Lo uso para investigar, sintetizar y contrastar fuentes antes de documentar una recomendación.", en: "I use it to research, synthesize and contrast sources before documenting a recommendation." }, status: "applied" },
+        gemini: { kind: { es: "Herramienta de IA", en: "AI tool" }, summary: { es: "Familia de modelos y asistentes de Google para conversar, investigar y crear apoyos reutilizables.", en: "Google's family of models and assistants for conversation, research and reusable support." }, impact: { es: "Permite explorar alternativas y convertir aprendizajes en asistentes o guías de uso repetible.", en: "It enables alternative exploration and turns learning into reusable assistants or guides." }, useCases: { es: ["Crear Gems para una tarea recurrente.", "Sintetizar información y proponer opciones.", "Comparar respuestas con otra herramienta para mejorar criterio."], en: ["Create Gems for recurring work.", "Synthesize information and propose options.", "Compare outputs with another tool to improve judgment."] }, evidence: { es: "He trabajado con Gems de Gemini dentro de una ruta aplicada de asistentes y prototipado.", en: "I have worked with Gemini Gems within an applied assistant and prototyping path." }, status: "applied" },
+        claude: { kind: { es: "Herramienta de IA", en: "AI tool" }, summary: { es: "Asistente de Anthropic para analizar, redactar y trabajar con contexto extenso.", en: "Anthropic's assistant for analysis, drafting and long-context work." }, impact: { es: "Convierte información compleja en respuestas claras y accionables.", en: "It turns complex information into clear, actionable responses." }, useCases: { es: ["Revisar documentos con criterios definidos.", "Comparar alternativas y riesgos.", "Refinar guías para personas no técnicas."], en: ["Review documents against defined criteria.", "Compare alternatives and risks.", "Refine guides for non-technical audiences."] }, evidence: { es: "Integro Claude en mi repertorio para analizar, comparar y mejorar entregables.", en: "I integrate Claude into my toolkit to analyze, compare and improve deliverables." }, status: "declared" },
+        "claude-code": { kind: { es: "Desarrollo agéntico", en: "Agentic development" }, summary: { es: "Entorno de Claude para trabajar con código, archivos y tareas de desarrollo desde lenguaje natural.", en: "A Claude environment for working with code, files and development tasks through natural language." }, impact: { es: "Acelera prototipos y cambios con pruebas, revisión y control de versiones.", en: "It accelerates prototypes and changes through testing, review and version control." }, useCases: { es: ["Comprender una base de código.", "Crear un primer componente o ajuste.", "Generar y ejecutar pruebas."], en: ["Understand a codebase.", "Create a first component or change.", "Generate and run tests."] }, evidence: { es: "Desarrollo agénticamente con Claude Code: doy contexto, reviso cambios y valido resultados.", en: "I develop agentically with Claude Code: I provide context, review changes and validate results." }, status: "assisted" },
+        "claude-design": { kind: { es: "Diseño asistido por IA", en: "AI-assisted design" }, summary: { es: "Uso de IA para explorar estructuras, interfaces y decisiones de experiencia con criterio de diseño.", en: "Using AI to explore structures, interfaces and experience decisions with design judgment." }, impact: { es: "Convierte una necesidad en alternativas visuales comparables con mayor rapidez.", en: "It turns a need into comparable visual alternatives faster." }, useCases: { es: ["Proponer jerarquías y estados.", "Explorar microinteracciones accesibles.", "Revisar una pantalla antes de implementarla."], en: ["Propose hierarchies and states.", "Explore accessible microinteractions.", "Review a screen before implementation."] }, evidence: { es: "Uso Claude Design para explorar alternativas y fortalecer decisiones de interfaz.", en: "I use Claude Design to explore alternatives and strengthen interface decisions." }, status: "assisted" },
+        manus: { kind: { es: "Automatización con IA", en: "AI automation" }, summary: { es: "Herramienta para ejecutar flujos de trabajo a partir de objetivos y pasos definidos.", en: "A tool for executing workflows from defined goals and steps." }, impact: { es: "Delega secuencias rutinarias con límites y puntos de revisión.", en: "It delegates routine sequences with boundaries and review points." }, useCases: { es: ["Investigar y organizar información.", "Preparar entregables repetitivos.", "Coordinar un flujo con validación humana."], en: ["Research and organize information.", "Prepare repetitive deliverables.", "Coordinate a workflow with human validation."] }, evidence: { es: "Integro Manus como opción para automatizar flujos orientados a objetivos.", en: "I integrate Manus as an option for goal-oriented workflow automation." }, status: "declared" },
+        "use-case-prioritization": { kind: { es: "Método de adopción IA", en: "AI adoption method" }, summary: { es: "Proceso para identificar dónde una capacidad de IA resuelve una necesidad real y merece inversión.", en: "A process to identify where AI solves a real need and deserves investment." }, impact: { es: "Evita usar IA por moda y enfoca el esfuerzo en mejoras observables.", en: "It avoids using AI for novelty and focuses effort on observable improvements." }, useCases: { es: ["Ordenar oportunidades por esfuerzo y valor.", "Separar tareas simples de tareas críticas.", "Definir el primer objetivo de mejora."], en: ["Rank opportunities by effort and value.", "Separate simple from critical tasks.", "Define the first improvement goal."] }, evidence: { es: "Lo aplico para traducir necesidades operativas en casos de uso priorizados y verificables.", en: "I apply it to translate operational needs into prioritized, verifiable use cases." }, status: "applied" },
+        playbooks: { kind: { es: "Transferencia operativa", en: "Operational enablement" }, summary: { es: "Guías breves con criterios, pasos y formatos que ayudan a repetir una forma de trabajo.", en: "Brief guides with criteria, steps and formats that help repeat a way of working." }, impact: { es: "Convierte un aprendizaje individual en una capacidad que el equipo puede reutilizar.", en: "It turns individual learning into a capability the team can reuse." }, useCases: { es: ["Guía para crear un asistente.", "Checklist de revisión antes de entregar.", "Formato común para documentar hallazgos."], en: ["Guide for creating an assistant.", "Pre-delivery review checklist.", "Common format for documenting findings."] }, evidence: { es: "He trabajado con playbooks, criterios y formatos de salida para hacer repetible lo que funciona.", en: "I have worked with playbooks, criteria and output formats to make what works repeatable." }, status: "applied" },
+        "docs-roadmaps": { kind: { es: "Documentación de mejora", en: "Improvement documentation" }, summary: { es: "Documentación que organiza diagnóstico, recomendación, alcance, próximos pasos y condiciones de éxito.", en: "Documentation that organizes diagnosis, recommendation, scope, next steps and success conditions." }, impact: { es: "Hace visible una decisión y facilita que otras personas la ejecuten sin empezar de cero.", en: "It makes a decision visible and helps others execute without starting from zero." }, useCases: { es: ["Diagnóstico operativo.", "Hoja de ruta de adopción.", "Recomendación con riesgos y dependencias."], en: ["Operational diagnosis.", "Adoption roadmap.", "Recommendation with risks and dependencies."] }, evidence: { es: "Lo uso para convertir análisis y conversaciones en documentos accionables y trazables.", en: "I use it to turn analysis and conversations into actionable, traceable documents." }, status: "applied" },
+        "responsible-adoption": { kind: { es: "Adopción responsable", en: "Responsible adoption" }, summary: { es: "Forma de incorporar IA con privacidad, trazabilidad, límites y una persona responsable de la decisión final.", en: "A way to adopt AI with privacy, traceability, boundaries and a person responsible for final decisions." }, impact: { es: "Aumenta la velocidad con decisiones trazables, revisadas y responsables.", en: "It increases speed through traceable, reviewed and responsible decisions." }, useCases: { es: ["Definir qué puede delegarse.", "Registrar fuentes y cambios.", "Mantener revisión humana en casos sensibles."], en: ["Define what can be delegated.", "Record sources and changes.", "Keep human review for sensitive cases."] }, evidence: { es: "Mi enfoque mantiene privacidad, trazabilidad y criterio humano como condiciones de adopción.", en: "My approach keeps privacy, traceability and human judgment as adoption conditions." }, status: "applied" },
+        "agent-guardrails": { kind: { es: "Fundamentos agénticos", en: "Agent fundamentals" }, summary: { es: "Principios y límites para que un agente ejecute pasos definidos sin perder control, observabilidad ni revisión.", en: "Principles and boundaries for agents to execute defined steps without losing control, observability or review." }, impact: { es: "Hace posible explorar automatización escalable de forma proporcional al riesgo.", en: "It makes scalable automation exploration possible in proportion to risk." }, useCases: { es: ["Definir herramientas permitidas.", "Crear puntos de aprobación.", "Registrar resultados y errores del flujo."], en: ["Define allowed tools.", "Create approval points.", "Record workflow results and errors."] }, evidence: { es: "He estudiado y aplicado fundamentos de agentes, guardrails y control humano en prototipos.", en: "I have studied and applied agent fundamentals, guardrails and human control in prototypes." }, status: "exploration" },
+        "research-synthesis": { kind: { es: "Investigación con evidencia", en: "Evidence-based research" }, summary: { es: "Búsqueda, comparación y síntesis de información para sostener una recomendación con fuentes claras.", en: "Searching, comparing and synthesizing information to support a recommendation with clear sources." }, impact: { es: "Reduce decisiones basadas en intuición aislada y mejora la calidad de la conversación.", en: "It reduces decisions based on isolated intuition and improves conversation quality." }, useCases: { es: ["Comparar alternativas.", "Resumir una base documental.", "Detectar vacíos antes de avanzar."], en: ["Compare alternatives.", "Summarize a document base.", "Detect gaps before moving forward."] }, evidence: { es: "Lo aplico para investigar, sintetizar y documentar recomendaciones con evidencia.", en: "I apply it to research, synthesize and document evidence-based recommendations." }, status: "applied" },
+        "knowledge-transfer": { kind: { es: "Habilitación de equipos", en: "Team enablement" }, summary: { es: "Transferencia de una forma de trabajo para que otras personas puedan entenderla, usarla y mejorarla.", en: "Transferring a way of working so others can understand, use and improve it." }, impact: { es: "Evita que la mejora dependa de una sola persona y facilita la adopción.", en: "It prevents improvement from depending on one person and supports adoption." }, useCases: { es: ["Explicar un flujo a personas no técnicas.", "Crear ejemplos de uso.", "Acompañar una adopción inicial."], en: ["Explain a flow to non-technical people.", "Create usage examples.", "Support early adoption."] }, evidence: { es: "Lo practico al convertir conceptos técnicos en guías y explicaciones claras para equipos.", en: "I practice it by turning technical concepts into clear guides and explanations for teams." }, status: "applied" },
+        "qa-automation": { kind: { es: "Calidad de software", en: "Software quality" }, summary: { es: "Uso de pruebas y automatización para encontrar riesgos y verificar comportamientos con menos esfuerzo manual repetitivo.", en: "Using testing and automation to find risks and verify behavior with less repetitive manual effort." }, impact: { es: "Aumenta la confianza en los entregables y permite corregir antes de que el problema llegue al usuario.", en: "It increases confidence in deliverables and helps correct issues before users encounter them." }, useCases: { es: ["Pruebas de regresión.", "Validación de flujos críticos.", "Evidencia para decisiones de entrega."], en: ["Regression testing.", "Validation of critical flows.", "Evidence for delivery decisions."] }, evidence: { es: "He trabajado en aseguramiento de calidad, pruebas, evidencias y automatización.", en: "I have worked on quality assurance, testing, evidence and automation." }, status: "applied" },
+        selenium: { kind: { es: "Automatización de pruebas", en: "Test automation" }, summary: { es: "Herramienta para automatizar interacciones y verificaciones en aplicaciones web.", en: "A tool to automate interactions and checks in web applications." }, impact: { es: "Permite repetir pruebas con consistencia y hacer visibles fallos antes de una entrega.", en: "It enables consistent test repetition and makes failures visible before delivery." }, useCases: { es: ["Pruebas de inicio de sesión.", "Regresión de formularios.", "Validación de recorridos de usuario."], en: ["Login tests.", "Form regression.", "User journey validation."] }, evidence: { es: "Construí una base de pruebas web con Selenium WebDriver para apoyar la confiabilidad de entregables.", en: "I built a web testing foundation with Selenium WebDriver to support deliverable reliability." }, status: "applied" },
+        serenity: { kind: { es: "Framework de testing", en: "Testing framework" }, summary: { es: "Framework para organizar automatización, reportes y resultados de pruebas con una lectura cercana al negocio.", en: "A framework for organizing automation, reports and test results with a business-readable view." }, impact: { es: "Conecta la ejecución de pruebas con evidencia que negocio, QA y desarrollo pueden comprender.", en: "It connects test execution with evidence business, QA and development can understand." }, useCases: { es: ["Automatización con patrón Screenplay.", "Reportes de regresión legibles.", "Seguimiento de resultados por funcionalidad."], en: ["Screenplay-based automation.", "Readable regression reports.", "Result tracking by functionality."] }, evidence: { es: "Lo he utilizado como parte de mi base de automatización de pruebas, interpretando escenarios, ejecución y resultados.", en: "I have used it as part of my test-automation foundation, interpreting scenarios, execution and results." }, status: "applied" },
+        playwright: { kind: { es: "Automatización de pruebas agéntica", en: "Agentic test automation" }, summary: { es: "Herramienta para automatizar y observar recorridos web en distintos navegadores con apoyo de agentes.", en: "A tool for automating and observing web journeys across browsers with agent support." }, impact: { es: "Acelera la creación y depuración de pruebas con evidencia verificable.", en: "It accelerates test creation and debugging with verifiable evidence." }, useCases: { es: ["Pruebas de recorridos críticos.", "Validación visual y responsive.", "Exploración desde un IDE agéntico."], en: ["Critical-journey tests.", "Visual and responsive validation.", "Exploration from an agentic IDE."] }, evidence: { es: "Desarrollo pruebas agénticamente con Playwright mediante un sprint de adaptación, revisión de código y validación de resultados.", en: "I develop tests agentically with Playwright through an adaptation sprint, code review and result validation." }, status: "assisted" },
+        cucumber: { kind: { es: "Framework BDD", en: "BDD framework" }, summary: { es: "Framework para expresar escenarios en un lenguaje claro y ejecutable.", en: "A framework for expressing scenarios in clear, executable language." }, impact: { es: "Alinea a negocio, QA y desarrollo sobre la misma expectativa de calidad.", en: "It aligns business, QA and development around the same quality expectation." }, useCases: { es: ["Escenarios de aceptación.", "Regresión por comportamiento.", "Documentación viva de reglas."], en: ["Acceptance scenarios.", "Behavior-driven regression.", "Living documentation of rules."] }, evidence: { es: "Integro Cucumber para ampliar la automatización BDD y mantener escenarios comprensibles.", en: "I integrate Cucumber to extend BDD automation and keep scenarios understandable." }, status: "declared" },
+        "gherkin-bdd": { kind: { es: "Método de calidad", en: "Quality method" }, summary: { es: "Forma de describir comportamientos y criterios de aceptación con ejemplos claros para distintas personas del equipo.", en: "A way to describe behavior and acceptance criteria with clear examples for different team members." }, impact: { es: "Reduce ambigüedad y facilita detectar si una funcionalidad cumple lo que se esperaba.", en: "It reduces ambiguity and makes it easier to see whether a feature meets expectations." }, useCases: { es: ["Criterios de aceptación.", "Escenarios felices y de error.", "Conversaciones entre negocio y tecnología."], en: ["Acceptance criteria.", "Happy-path and error scenarios.", "Business-technology conversations."] }, evidence: { es: "He trabajado con Gherkin/BDD para hacer más claros los escenarios y la trazabilidad de pruebas.", en: "I have worked with Gherkin/BDD to clarify scenarios and testing traceability." }, status: "applied" },
+        "rest-assured": { kind: { es: "Pruebas de API", en: "API testing" }, summary: { es: "Biblioteca para automatizar pruebas sobre servicios y APIs.", en: "A library for automating tests over services and APIs." }, impact: { es: "Permite validar contratos y respuestas antes de que una integración defectuosa avance.", en: "It helps validate contracts and responses before a faulty integration moves forward." }, useCases: { es: ["Validar códigos y respuestas.", "Comprobar datos de una API.", "Regresión de servicios."], en: ["Validate codes and responses.", "Check API data.", "Service regression."] }, evidence: { es: "Construí una base de pruebas web y API con Rest Assured y herramientas de seguimiento.", en: "I built a web and API testing foundation with Rest Assured and tracking tools." }, status: "applied" },
+        postman: { kind: { es: "Pruebas de API", en: "API testing" }, summary: { es: "Herramienta para explorar, probar y documentar servicios web y sus respuestas.", en: "A tool to explore, test and document web services and their responses." }, impact: { es: "Acelera la verificación temprana de integraciones y hace visibles errores de comunicación.", en: "It accelerates early integration checks and exposes communication errors." }, useCases: { es: ["Enviar solicitudes controladas.", "Guardar colecciones de pruebas.", "Compartir ejemplos de API."], en: ["Send controlled requests.", "Save test collections.", "Share API examples."] }, evidence: { es: "Lo uso como apoyo para probar APIs, revisar respuestas y organizar evidencia.", en: "I use it to test APIs, review responses and organize evidence." }, status: "applied" },
+        tosca: { kind: { es: "Automatización de calidad", en: "Quality automation" }, summary: { es: "Plataforma de automatización de pruebas orientada a validar procesos con menos código manual.", en: "A test automation platform for validating processes with less manual coding." }, impact: { es: "Ayuda a ampliar cobertura y mantener pruebas repetibles en procesos de negocio.", en: "It helps expand coverage and keep tests repeatable in business processes." }, useCases: { es: ["Automatizar recorridos de negocio.", "Regresión funcional.", "Evidencia de certificación y calidad."], en: ["Automate business journeys.", "Functional regression.", "Certification and quality evidence."] }, evidence: { es: "Cuento con certificaciones Tricentis Tosca AS1, AS2, AE1 y TDS1.", en: "I hold Tricentis Tosca AS1, AS2, AE1 and TDS1 certifications." }, status: "applied" },
+        "rpa-foundations": { kind: { es: "Base de automatización de procesos", en: "Process-automation foundation" }, summary: { es: "Fundamentos para identificar tareas repetitivas, definir reglas y automatizar pasos entre sistemas.", en: "Foundations for identifying repetitive work, defining rules and automating steps across systems." }, impact: { es: "Permite detectar qué trabajo rutinario puede delegarse y preparar su evolución desde RPA hacia automatización agéntica.", en: "It helps identify routine work that can be delegated and prepares its evolution from RPA toward agentic automation." }, useCases: { es: ["Mapear tareas repetitivas.", "Definir entradas, reglas y excepciones.", "Diseñar puntos de control humano."], en: ["Map repetitive work.", "Define inputs, rules and exceptions.", "Design human control points."] }, evidence: { es: "Cuento con bases de RPA y automatización industrial; mi foco actual es evolucionarlas hacia flujos agénticos con trazabilidad.", en: "I have RPA and industrial-automation foundations; my current focus is evolving them toward traceable agentic workflows." }, status: "exploration" },
+        "evidence-traceability": { kind: { es: "Gestión de calidad", en: "Quality management" }, summary: { es: "Relación visible entre requisito, prueba, resultado, hallazgo y decisión.", en: "A visible relationship between requirement, test, result, finding and decision." }, impact: { es: "Permite explicar qué se revisó, qué falló y por qué una entrega puede avanzar.", en: "It explains what was checked, what failed and why a delivery can move forward." }, useCases: { es: ["Matriz de pruebas.", "Registro de hallazgos.", "Evidencia para una conversación de riesgo."], en: ["Test matrix.", "Finding log.", "Evidence for a risk conversation."] }, evidence: { es: "Hice visible la calidad organizando pruebas, evidencias y hallazgos para decidir a tiempo.", en: "I made quality visible by organizing tests, evidence and findings for timely decisions." }, status: "applied" },
+        jira: { kind: { es: "ALM y seguimiento", en: "ALM and tracking" }, summary: { es: "Herramienta para organizar trabajo, incidencias, prioridades y seguimiento de entregables.", en: "A tool for organizing work, issues, priorities and deliverable tracking." }, impact: { es: "Conecta una necesidad o defecto con una acción visible y un responsable.", en: "It connects a need or defect to a visible action and owner." }, useCases: { es: ["Registrar defectos.", "Dar seguimiento a tareas.", "Ordenar prioridades de un sprint."], en: ["Log defects.", "Track tasks.", "Order sprint priorities."] }, evidence: { es: "Lo he usado dentro de herramientas de seguimiento y flujos Agile/Scrum.", en: "I have used it within tracking tools and Agile/Scrum flows." }, status: "applied" },
+        "azure-devops": { kind: { es: "ALM y entrega", en: "ALM and delivery" }, summary: { es: "Suite para planificar trabajo, gestionar código, pruebas y entregas en un mismo flujo.", en: "A suite for planning work, managing code, testing and delivery in one flow." }, impact: { es: "Conecta planificación, calidad y entrega con trazabilidad.", en: "It connects planning, quality and delivery with traceability." }, useCases: { es: ["Tableros y backlogs.", "Pipelines de entrega.", "Seguimiento de pruebas."], en: ["Boards and backlogs.", "Delivery pipelines.", "Test tracking."] }, evidence: { es: "Uso Azure DevOps como herramienta ALM para conectar trabajo, pruebas y seguimiento.", en: "I use Azure DevOps as an ALM tool to connect work, testing and tracking." }, status: "declared" },
+        "agile-scrum": { kind: { es: "Forma de trabajo", en: "Way of working" }, summary: { es: "Prácticas para planificar, entregar, revisar y mejorar trabajo en ciclos cortos.", en: "Practices for planning, delivering, reviewing and improving work in short cycles." }, impact: { es: "Hace visible el avance, los bloqueos y la mejora continua del equipo.", en: "It makes progress, blockers and continuous team improvement visible." }, useCases: { es: ["Planificar un sprint.", "Revisar riesgos y prioridades.", "Aprender de una entrega."], en: ["Plan a sprint.", "Review risks and priorities.", "Learn from a delivery."] }, evidence: { es: "He trabajado en contextos Agile/Scrum y SDLC junto con seguimiento de calidad.", en: "I have worked in Agile/Scrum and SDLC contexts alongside quality tracking." }, status: "applied" },
+        "risk-edge": { kind: { es: "Análisis de calidad", en: "Quality analysis" }, summary: { es: "Búsqueda deliberada de condiciones límite, riesgos y comportamientos inesperados.", en: "Deliberate search for boundary conditions, risks and unexpected behavior." }, impact: { es: "Permite anticipar fallos antes de que se conviertan en incidentes para una persona usuaria.", en: "It helps anticipate failures before they become user incidents." }, useCases: { es: ["Escenarios con datos incompletos.", "Errores de permisos o límites.", "Revisión de rutas poco frecuentes."], en: ["Incomplete-data scenarios.", "Permission or boundary errors.", "Review of uncommon paths."] }, evidence: { es: "Uso análisis de riesgo y escenarios borde para ampliar la cobertura de revisión.", en: "I use risk analysis and edge cases to broaden review coverage." }, status: "applied" },
+        java: { kind: { es: "Tecnología para automatización agéntica", en: "Technology for agentic automation" }, summary: { es: "Lenguaje utilizado en soluciones empresariales y frameworks de automatización de pruebas.", en: "A language used in enterprise solutions and test-automation frameworks." }, impact: { es: "Me permite comprender, adaptar y validar pruebas estructuradas.", en: "It helps me understand, adapt and validate structured tests." }, useCases: { es: ["Automatización con Selenium y Serenity.", "Lectura de escenarios y resultados.", "Ajustes guiados por pruebas."], en: ["Automation with Selenium and Serenity.", "Read scenarios and results.", "Test-guided adjustments."] }, evidence: { es: "Desarrollo automatizaciones agénticamente en Java: reviso el código y valido su comportamiento con pruebas.", en: "I develop automations agentically in Java: I review the code and validate its behavior through testing." }, status: "assisted" },
+        sql: { kind: { es: "Consulta y datos", en: "Queries and data" }, summary: { es: "Lenguaje para consultar, relacionar y validar información en bases de datos.", en: "A language for querying, relating and validating information in databases." }, impact: { es: "Ayuda a comprobar datos, investigar comportamientos y sostener evidencia de calidad.", en: "It helps check data, investigate behavior and support quality evidence." }, useCases: { es: ["Consultar resultados de una prueba.", "Verificar consistencia de datos.", "Apoyar análisis de incidencias."], en: ["Query test results.", "Check data consistency.", "Support incident analysis."] }, evidence: { es: "Lo he usado junto con trazabilidad de evidencias y análisis de pruebas.", en: "I have used it alongside evidence traceability and test analysis." }, status: "applied" },
+        mysql: { kind: { es: "Datos para validación asistida", en: "Data for assisted validation" }, summary: { es: "Base de datos relacional que permite consultar y contrastar información mediante SQL.", en: "A relational database that enables querying and checking information through SQL." }, impact: { es: "Apoya la verificación de datos y la investigación de resultados durante pruebas.", en: "It supports data verification and result investigation during testing." }, useCases: { es: ["Validar registros.", "Contrastar resultados de una prueba.", "Apoyar pruebas de integración."], en: ["Validate records.", "Check test results.", "Support integration testing."] }, evidence: { es: "La utilizo con asistencia cuando el flujo de prueba requiere consultar o validar datos; confirmo las consultas antes de usarlas.", en: "I use it with assistance when a test flow requires querying or validating data; I verify queries before use." }, status: "assisted" },
+        javascript: { kind: { es: "Tecnología para prototipado asistido", en: "Technology for assisted prototyping" }, summary: { es: "Lenguaje para crear comportamientos web, automatizaciones y pruebas de navegador.", en: "A language for browser behavior, automation and web testing." }, impact: { es: "Permite convertir una necesidad en una interacción o prueba visible que puedo revisar y validar.", en: "It turns a need into a visible interaction or test that I can review and validate." }, useCases: { es: ["Pruebas con Playwright.", "Interacciones de prototipos web.", "Scripts de automatización."], en: ["Playwright tests.", "Web-prototype interactions.", "Automation scripts."] }, evidence: { es: "Lo utilizo mediante desarrollo asistido por agentes; comprendo el propósito, pruebo el resultado y reviso los cambios antes de integrarlos.", en: "I use it through agent-assisted development; I understand the purpose, test the result and review changes before integration." }, status: "assisted" },
+        angular: { kind: { es: "Framework para adaptación asistida", en: "Framework for assisted adaptation" }, summary: { es: "Framework para construir y mantener aplicaciones web estructuradas.", en: "A framework for building and maintaining structured web applications." }, impact: { es: "Amplía mi capacidad de colaborar en soluciones web cuando el contexto exige este stack.", en: "It extends my ability to collaborate on web solutions when the context requires this stack." }, useCases: { es: ["Comprender componentes existentes.", "Prototipar ajustes guiados.", "Validar flujos web."], en: ["Understand existing components.", "Prototype guided changes.", "Validate web flows."] }, evidence: { es: "Puedo incorporarlo mediante un sprint de adaptación con agentes, estudio del framework y validación de cada cambio.", en: "I can adopt it through an adaptation sprint with agents, framework study and validation of every change." }, status: "assisted" },
+        node: { kind: { es: "Entorno para automatización agéntica", en: "Environment for agentic automation" }, summary: { es: "Entorno para ejecutar JavaScript en servicios, herramientas y automatizaciones.", en: "An environment for running JavaScript in services, tools and automations." }, impact: { es: "Conecta prototipos con archivos, APIs y tareas repetibles.", en: "It connects prototypes with files, APIs and repeatable tasks." }, useCases: { es: ["Scripts de automatización.", "Herramientas de prueba.", "Servicios pequeños para prototipos."], en: ["Automation scripts.", "Testing tools.", "Small prototype services."] }, evidence: { es: "Desarrollo agénticamente con Node.js y valido cada cambio mediante pruebas y revisión.", en: "I develop agentically with Node.js and validate every change through testing and review." }, status: "assisted" },
+        "python-vibe": { kind: { es: "Tecnología para automatización asistida", en: "Technology for assisted automation" }, summary: { es: "Lenguaje que uso con agentes de IA para explorar automatizaciones, análisis y primeros prototipos.", en: "A language I use with AI agents to explore automations, analysis and first prototypes." }, impact: { es: "Reduce el esfuerzo de entrada y permite validar valor antes de invertir en una solución completa.", en: "It lowers entry effort and validates value before investing in a complete solution." }, useCases: { es: ["Scripts para tareas repetitivas.", "Prototipos de análisis.", "Automatización de procesos."], en: ["Scripts for repetitive work.", "Analysis prototypes.", "Process automation."] }, evidence: { es: "Trabajo Python mediante vibe coding y desarrollo agéntico: estudio el código generado, lo pruebo y documento sus límites antes de usarlo.", en: "I work with Python through vibe coding and agentic development: I study generated code, test it and document its limits before use." }, status: "assisted" },
+        "agentic-development": { kind: { es: "Desarrollo agéntico", en: "Agentic development" }, summary: { es: "Forma de construir con agentes que exploran, implementan, prueban y documentan bajo límites definidos.", en: "A way to build with agents that explore, implement, test and document under defined boundaries." }, impact: { es: "Adapta el stack y acelera prototipos con velocidad y confiabilidad.", en: "It adapts the stack and accelerates prototypes with speed and reliability." }, useCases: { es: ["Prototipo a 1 prompt.", "Adaptación inicial a un nuevo stack.", "Generación y revisión de pruebas y documentación."], en: ["One-prompt prototype.", "Initial adaptation to a new stack.", "Generate and review tests and documentation."] }, evidence: { es: "Desarrollo agénticamente mediante un sprint de adaptación: estudio la tecnología, comprendo el código, ejecuto pruebas y documento decisiones.", en: "I develop agentically through an adaptation sprint: I study the technology, understand the code, run tests and document decisions." }, status: "assisted" },
+        "agentic-ide": { kind: { es: "Entorno de trabajo agéntico", en: "Agentic work environment" }, summary: { es: "IDE donde agentes de IA leen archivos, proponen cambios, ejecutan pruebas y explican resultados.", en: "An IDE where AI agents read files, propose changes, run tests and explain results." }, impact: { es: "Acorta el ciclo entre necesidad, implementación y validación con cambios y evidencia visibles.", en: "It shortens the cycle from need to implementation and validation with visible changes and evidence." }, useCases: { es: ["Crear pruebas agénticas.", "Comparar cambios.", "Investigar fallos con evidencia."], en: ["Create agentic tests.", "Compare changes.", "Investigate failures with evidence."] }, evidence: { es: "Uso IDEs agénticos para prototipar, comprender cambios, ejecutar pruebas y validar resultados.", en: "I use agentic IDEs to prototype, understand changes, run tests and validate results." }, status: "assisted" },
+        "google-workspace": { kind: { es: "Ofimática y colaboración", en: "Productivity and collaboration" }, summary: { es: "Herramientas de Google para documentos, hojas de cálculo, presentaciones y colaboración.", en: "Google tools for documents, spreadsheets, presentations and collaboration." }, impact: { es: "Facilita crear y compartir entregables accesibles para el equipo.", en: "It makes team deliverables easier to create and share." }, useCases: { es: ["Documentar procesos.", "Analizar datos.", "Presentar recomendaciones."], en: ["Document processes.", "Analyze data.", "Present recommendations."] }, evidence: { es: "Uso Google Workspace para documentar, analizar y colaborar.", en: "I use Google Workspace to document, analyze and collaborate." }, status: "declared" },
+        "microsoft-365": { kind: { es: "Ofimática y colaboración", en: "Productivity and collaboration" }, summary: { es: "Herramientas de Microsoft para documentos, hojas de cálculo, presentaciones, correo y colaboración.", en: "Microsoft tools for documents, spreadsheets, presentations, email and collaboration." }, impact: { es: "Convierte información en entregables claros para la organización.", en: "It turns information into clear organizational deliverables." }, useCases: { es: ["Redactar informes.", "Analizar y presentar datos.", "Preparar reuniones."], en: ["Draft reports.", "Analyze and present data.", "Prepare meetings."] }, evidence: { es: "Uso Microsoft 365 para crear informes, análisis y materiales de trabajo.", en: "I use Microsoft 365 to create reports, analyses and work materials." }, status: "declared" }
+      };
+      const statusCopy = {
+        applied: { es: "Aplicación documentada en mi perfil, experiencia o proyectos.", en: "Application documented in my profile, experience or projects." },
+        assisted: { es: "Desarrollo agéntico: comprendo el objetivo, reviso el código, ejecuto pruebas y documento decisiones.", en: "Agentic development: I understand the goal, review the code, run tests and document decisions." },
+        exploration: { es: "Capacidad en desarrollo mediante estudio, prototipos y validación práctica.", en: "Capability growing through study, prototypes and practical validation." },
+        declared: { es: "Capacidad disponible para aplicar en un contexto y alcance definidos.", en: "Capability available for use within a defined context and scope." }
+      };
+      const dialog = document.querySelector("#capability-dialog");
+      const dialogKind = document.querySelector("[data-dialog-kind]");
+      const dialogTitle = document.querySelector("[data-dialog-title]");
+      const dialogSummary = document.querySelector("[data-dialog-summary]");
+      const dialogImpact = document.querySelector("[data-dialog-impact]");
+      const dialogUseCases = document.querySelector("[data-dialog-use-cases]");
+      const dialogEvidence = document.querySelector("[data-dialog-evidence]");
+      const dialogStatus = document.querySelector("[data-dialog-status]");
+      let openCapabilityId = null;
+      let lastCapabilityTrigger = null;
+      const copy = (value) => value[body.dataset.lang === "en" ? "en" : "es"];
+      const capabilityTitle = (id) => {
+        const trigger = document.querySelector(`[data-capability-id="${id}"]`);
+        return trigger?.innerText.trim() || id.replaceAll("-", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+      };
+      const renderCapability = (id) => {
+        const item = capabilityCatalog[id];
+        if (!item || !dialog) return;
+        dialogKind.textContent = copy(item.kind);
+        dialogTitle.textContent = capabilityTitle(id);
+        dialogSummary.textContent = copy(item.summary);
+        dialogImpact.textContent = copy(item.impact);
+        dialogEvidence.textContent = copy(item.evidence);
+        dialogUseCases.replaceChildren(...copy(item.useCases).map((useCase) => { const li = document.createElement("li"); li.textContent = useCase; return li; }));
+        dialogStatus.dataset.status = item.status;
+        dialogStatus.textContent = copy(statusCopy[item.status]);
+      };
+      const closeCapability = () => {
+        if (!dialog) return;
+        if (dialog.open) dialog.close();
+        else dialog.removeAttribute("open");
+        lastCapabilityTrigger?.focus();
+        openCapabilityId = null;
+      };
+      document.querySelectorAll("[data-capability-id]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const id = button.dataset.capabilityId;
+          if (!id || !capabilityCatalog[id] || !dialog) return;
+          openCapabilityId = id;
+          lastCapabilityTrigger = button;
+          document.querySelectorAll("[data-capability-id]").forEach((chip) => chip.classList.toggle("is-selected", chip === button));
+          renderCapability(id);
+          if (typeof dialog.showModal === "function") dialog.showModal();
+          else dialog.setAttribute("open", "");
+        });
+      });
+      document.querySelectorAll("[data-dialog-close]").forEach((button) => button.addEventListener("click", closeCapability));
+      dialog?.addEventListener("click", (event) => { if (event.target === dialog) closeCapability(); });
+      dialog?.addEventListener("close", () => {
+        openCapabilityId = null;
+        document.querySelectorAll("[data-capability-id]").forEach((chip) => chip.classList.remove("is-selected"));
+        lastCapabilityTrigger?.focus();
+      });
+      new MutationObserver(() => { renderMessage(); if (openCapabilityId) renderCapability(openCapabilityId); }).observe(body, { attributes: true, attributeFilter: ["data-lens", "data-lang"] });
+      renderMessage();
+      body.classList.add("has-js");
+
+
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      document.querySelectorAll("[data-spotlight]").forEach((card) => {
+        if (!reducedMotion && window.matchMedia("(pointer: fine)").matches) {
+          card.addEventListener("pointermove", (event) => {
+            const rect = card.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+            card.style.setProperty("--spot-x", x + "px");
+            card.style.setProperty("--spot-y", y + "px");
+            card.style.setProperty("--tilt-x", ((x / rect.width) - .5) * 2.4 + "deg");
+            card.style.setProperty("--tilt-y", ((.5 - y / rect.height) * 2.4) + "deg");
+          });
+          card.addEventListener("pointerleave", () => {
+            card.style.setProperty("--tilt-x", "0deg");
+            card.style.setProperty("--tilt-y", "0deg");
+          });
+        }
+      });
+      document.querySelectorAll("[data-constellation]").forEach((canvas) => {
+        if (reducedMotion) return;
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return;
+        const points = Array.from({ length: 12 }, (_, index) => ({ seed: index * 1.7 + 1, radius: 1.2 + (index % 3) * .6 }));
+        const draw = (time) => {
+          const rect = canvas.getBoundingClientRect();
+          const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+          const width = Math.max(1, Math.round(rect.width * dpr));
+          const height = Math.max(1, Math.round(rect.height * dpr));
+          if (canvas.width !== width || canvas.height !== height) {
+            canvas.width = width;
+            canvas.height = height;
+          }
+          ctx.clearRect(0, 0, width, height);
+          const t = time * .00015;
+          const positions = points.map((point) => ({
+            x: (0.12 + ((Math.sin(t * point.seed) + 1) / 2) * .76) * width,
+            y: (0.18 + ((Math.cos(t * point.seed * .83) + 1) / 2) * .62) * height
+          }));
+          ctx.strokeStyle = getComputedStyle(document.body).getPropertyValue("--gold").trim() || "#b28a45";
+          ctx.fillStyle = getComputedStyle(document.body).getPropertyValue("--accent").trim() || "#b52f51";
+          ctx.lineWidth = .7 * dpr;
+          positions.forEach((point, index) => {
+            positions.slice(index + 1).forEach((other) => {
+              const dx = point.x - other.x;
+              const dy = point.y - other.y;
+              if (Math.hypot(dx, dy) < 150 * dpr) {
+                ctx.globalAlpha = .16;
+                ctx.beginPath();
+                ctx.moveTo(point.x, point.y);
+                ctx.lineTo(other.x, other.y);
+                ctx.stroke();
+              }
+            });
+          });
+          ctx.globalAlpha = .58;
+          positions.forEach((point, index) => {
+            ctx.beginPath();
+            ctx.arc(point.x, point.y, points[index].radius * dpr, 0, Math.PI * 2);
+            ctx.fill();
+          });
+          ctx.globalAlpha = 1;
+          window.requestAnimationFrame(draw);
+        };
+        window.requestAnimationFrame(draw);
+      });
+
+      const progress = document.querySelector(".scroll-progress");
+      const updateProgress = () => {
+        if (!progress) return;
+        const total = document.documentElement.scrollHeight - window.innerHeight;
+        progress.style.transform = total > 0 ? "scaleX(" + (window.scrollY / total).toFixed(4) + ")" : "scaleX(0)";
+      };
+      window.addEventListener("scroll", updateProgress, { passive: true });
+      window.addEventListener("resize", updateProgress);
+      updateProgress();
+      const syncHeader = () => body.classList.toggle("is-scrolled", window.scrollY > 24);
+      window.addEventListener("scroll", syncHeader, { passive: true });
+      syncHeader();
+      const sections = [...document.querySelectorAll("main section[id]")];
+      const links = [...document.querySelectorAll(".right-rail a")];
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              links.forEach((link) => link.classList.toggle("is-active", link.getAttribute("href") === "#" + entry.target.id));
+            }
+          });
+        }, { rootMargin: "-25% 0px -60% 0px", threshold: 0 });
+        sections.forEach((section) => observer.observe(section));
+      }
+      if (reducedMotion || !("IntersectionObserver" in window)) {
+        sections.forEach((section) => section.classList.add("is-revealed"));
+      } else {
+        const revealObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add("is-revealed"); revealObserver.unobserve(entry.target); } });
+        }, { rootMargin: "0px 0px -10% 0px", threshold: .05 });
+        sections.forEach((section) => revealObserver.observe(section));
+      }
+    })();
+
+  </script>
+
+
+</body></html>
